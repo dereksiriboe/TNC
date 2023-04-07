@@ -1,0 +1,1738 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20222.23.0311.1104                               -->
+<workbook original-version='18.1' source-build='2022.2.8 (20222.23.0311.1104)' source-platform='mac' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource hasconnection='false' inline='true' name='Parameters' version='18.1'>
+      <aliases enabled='yes' />
+      <column caption='Clustering Numbers' datatype='integer' name='[Parameter 1]' param-domain-type='range' role='measure' type='quantitative' value='1'>
+        <calculation class='tableau' formula='1' />
+        <range granularity='1' max='10' min='1' />
+      </column>
+    </datasource>
+    <datasource caption='fullData+' inline='true' name='federated.0rajefe1ug2ogt1e6vl120crw3ks' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='fullData' name='textscan.1ma76v714rhswk1h5rndk0osl2xr'>
+            <connection class='textscan' directory='/Users/noorashrifeh/da301/TNC-Local/progressReport1/counties/data/cleanData' filename='fullData.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1ma76v714rhswk1h5rndk0osl2xr' name='eduWorkData.csv' table='[eduWorkData#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='County Name' ordinal='0' />
+            <column datatype='real' name='With a disability, under age 65 years' ordinal='1' />
+            <column datatype='real' name='Persons without health insurance, under age 65 years' ordinal='2' />
+            <column datatype='real' name='In civilian labor force, total of population age 16 years+' ordinal='3' />
+            <column datatype='real' name='In civilian labor force, female of population age 16 years+' ordinal='4' />
+            <column datatype='integer' name='Total retail sales per capita, 2017' ordinal='5' />
+            <column datatype='real' name='Mean travel time to work (minutes), workers age 16 years+' ordinal='6' />
+            <column datatype='integer' name='Median household income (in 2021 dollars)' ordinal='7' />
+            <column datatype='integer' name='Per capita income in past 12 months (in 2021 dollars)' ordinal='8' />
+            <column datatype='real' name='Persons in poverty' ordinal='9' />
+            <column datatype='integer' name='Total employer establishments, 2020' ordinal='10' />
+            <column datatype='integer' name='Total employment, 2020' ordinal='11' />
+            <column datatype='integer' name='Total annual payroll, 2020 ($1,000)' ordinal='12' />
+            <column datatype='real' name='Population per square mile, 2020' ordinal='13' />
+            <column datatype='real' name='Land area in square miles, 2020' ordinal='14' />
+            <column datatype='real' name='Banned or not' ordinal='15' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='textscan.1ma76v714rhswk1h5rndk0osl2xr' name='fullData.csv' table='[fullData#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='integer' name='F1' ordinal='0' />
+              <column datatype='string' name='County Name' ordinal='1' />
+              <column datatype='integer' name='Population Estimates, July 1 2021, (V2021)' ordinal='2' />
+              <column datatype='real' name='Persons under 5 years' ordinal='3' />
+              <column datatype='real' name='Persons under 18 years' ordinal='4' />
+              <column datatype='real' name='Persons 65 years and over' ordinal='5' />
+              <column datatype='real' name='Female persons' ordinal='6' />
+              <column datatype='real' name='White alone' ordinal='7' />
+              <column datatype='real' name='Black or African American alone' ordinal='8' />
+              <column datatype='real' name='American Indian and Alaska Native alone' ordinal='9' />
+              <column datatype='real' name='Asian alone' ordinal='10' />
+              <column datatype='real' name='Native Hawaiian and Other Pacific Islander alone' ordinal='11' />
+              <column datatype='real' name='Two or More Races' ordinal='12' />
+              <column datatype='real' name='Hispanic or Latino' ordinal='13' />
+              <column datatype='real' name='White alone, not Hispanic or Latino' ordinal='14' />
+              <column datatype='integer' name='Veterans, 2017-2021' ordinal='15' />
+              <column datatype='real' name='Foreign born persons, 2017-2021' ordinal='16' />
+              <column datatype='integer' name='Housing units, July 1, 2021, (V2021)' ordinal='17' />
+              <column datatype='real' name='Owner-occupied housing unit rate, 2017-2021' ordinal='18' />
+              <column datatype='integer' name='Median value of owner-occupied housing units, 2017-2021' ordinal='19' />
+              <column datatype='integer' name='Median selected monthly owner costs -with a mortgage, 2017-2021' ordinal='20' />
+              <column datatype='integer' name='Median selected monthly owner costs -without a mortgage, 2017-2021' ordinal='21' />
+              <column datatype='integer' name='Median gross rent, 2017-2021' ordinal='22' />
+              <column datatype='real' name='Building permits, 2021' ordinal='23' />
+              <column datatype='integer' name='Households, 2017-2021' ordinal='24' />
+              <column datatype='real' name='Persons per household, 2017-2021' ordinal='25' />
+              <column datatype='real' name='Living in same house 1 year ago of persons age 1 year+, 2017-2021' ordinal='26' />
+              <column datatype='real' name='Language other than English spoken at home of persons age 5 years+, 2017-2021' ordinal='27' />
+              <column datatype='real' name='Households with a computer, 2017-2021' ordinal='28' />
+              <column datatype='real' name='Households with a broadband Internet subscription, 2017-2021' ordinal='29' />
+              <column datatype='real' name='High school graduate or higher of persons age 25 years+, 2017-2021' ordinal='30' />
+              <column datatype='real' name='Bachelor&apos;s degree or higher of persons age 25 years+, 2017-2021' ordinal='31' />
+              <column datatype='real' name='With a disability, under age 65 years, 2017-2021' ordinal='32' />
+              <column datatype='real' name='Persons without health insurance, under age 65 years' ordinal='33' />
+              <column datatype='real' name='In civilian labor force, total of population age 16 years+, 2017-2021' ordinal='34' />
+              <column datatype='real' name='In civilian labor force, female of population age 16 years+, 2017-2021' ordinal='35' />
+              <column datatype='integer' name='Total retail sales per capita, 2017' ordinal='36' />
+              <column datatype='real' name='Mean travel time to work (minutes), workers age 16 years+, 2017-2021' ordinal='37' />
+              <column datatype='integer' name='Median household income (in 2021 dollars), 2017-2021' ordinal='38' />
+              <column datatype='integer' name='Per capita income in past 12 months (in 2021 dollars), 2017-2021' ordinal='39' />
+              <column datatype='real' name='Persons in poverty' ordinal='40' />
+              <column datatype='integer' name='Total employer establishments, 2020' ordinal='41' />
+              <column datatype='integer' name='Total employment, 2020' ordinal='42' />
+              <column datatype='integer' name='Total annual payroll, 2020 ($1,000)' ordinal='43' />
+              <column datatype='real' name='Population per square mile, 2020' ordinal='44' />
+              <column datatype='real' name='Land area in square miles, 2020' ordinal='45' />
+              <column datatype='real' name='Banned or not' ordinal='46' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1ma76v714rhswk1h5rndk0osl2xr' name='eduWorkData.csv' table='[eduWorkData#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='County Name' ordinal='0' />
+              <column datatype='real' name='With a disability, under age 65 years' ordinal='1' />
+              <column datatype='real' name='Persons without health insurance, under age 65 years' ordinal='2' />
+              <column datatype='real' name='In civilian labor force, total of population age 16 years+' ordinal='3' />
+              <column datatype='real' name='In civilian labor force, female of population age 16 years+' ordinal='4' />
+              <column datatype='integer' name='Total retail sales per capita, 2017' ordinal='5' />
+              <column datatype='real' name='Mean travel time to work (minutes), workers age 16 years+' ordinal='6' />
+              <column datatype='integer' name='Median household income (in 2021 dollars)' ordinal='7' />
+              <column datatype='integer' name='Per capita income in past 12 months (in 2021 dollars)' ordinal='8' />
+              <column datatype='real' name='Persons in poverty' ordinal='9' />
+              <column datatype='integer' name='Total employer establishments, 2020' ordinal='10' />
+              <column datatype='integer' name='Total employment, 2020' ordinal='11' />
+              <column datatype='integer' name='Total annual payroll, 2020 ($1,000)' ordinal='12' />
+              <column datatype='real' name='Population per square mile, 2020' ordinal='13' />
+              <column datatype='real' name='Land area in square miles, 2020' ordinal='14' />
+              <column datatype='real' name='Banned or not' ordinal='15' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1ma76v714rhswk1h5rndk0osl2xr' name='housingData.csv' table='[housingData#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='County Name' ordinal='0' />
+              <column datatype='integer' name='Median value of owner-occupied housing units' ordinal='1' />
+              <column datatype='integer' name='Median selected monthly owner costs -with a mortgage' ordinal='2' />
+              <column datatype='integer' name='Median selected monthly owner costs -without a mortgage' ordinal='3' />
+              <column datatype='integer' name='Median gross rent' ordinal='4' />
+              <column datatype='real' name='Building permits, 2021' ordinal='5' />
+              <column datatype='integer' name='Households' ordinal='6' />
+              <column datatype='real' name='Persons per household' ordinal='7' />
+              <column datatype='real' name='Living in same house 1 year ago of persons age 1 year+' ordinal='8' />
+              <column datatype='real' name='Language other than English spoken at home of persons age 5 years+' ordinal='9' />
+              <column datatype='real' name='Households with a computer' ordinal='10' />
+              <column datatype='real' name='Households with a broadband Internet subscription' ordinal='11' />
+              <column datatype='real' name='High school graduate or higher of persons age 25 years+' ordinal='12' />
+              <column datatype='real' name='Banned or not' ordinal='13' />
+            </columns>
+          </relation>
+          <relation connection='textscan.1ma76v714rhswk1h5rndk0osl2xr' name='popData.csv' table='[popData#csv]' type='table'>
+            <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+              <column datatype='string' name='County Name' ordinal='0' />
+              <column datatype='integer' name='Population EstimatesJuly 1 2021()' ordinal='1' />
+              <column datatype='real' name='Persons under 5 years' ordinal='2' />
+              <column datatype='real' name='Persons under 18 years' ordinal='3' />
+              <column datatype='real' name='Persons 65 years and over' ordinal='4' />
+              <column datatype='real' name='Female persons' ordinal='5' />
+              <column datatype='real' name='White alone' ordinal='6' />
+              <column datatype='real' name='Black or African American alone' ordinal='7' />
+              <column datatype='real' name='American Indian and Alaska Native alone' ordinal='8' />
+              <column datatype='real' name='Asian alone' ordinal='9' />
+              <column datatype='real' name='Native Hawaiian and Other Pacific Islander alone' ordinal='10' />
+              <column datatype='real' name='Two or More Races' ordinal='11' />
+              <column datatype='real' name='Hispanic or Latino' ordinal='12' />
+              <column datatype='real' name='White alonenot Hispanic or Latino' ordinal='13' />
+              <column datatype='integer' name='Veterans2017-2021' ordinal='14' />
+              <column datatype='real' name='Foreign born persons2017-2021' ordinal='15' />
+              <column datatype='integer' name='Housing unitsJuly 12021()' ordinal='16' />
+              <column datatype='real' name='Banned or not' ordinal='17' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <cols>
+          <map key='[American Indian and Alaska Native alone (popData.csv)]' value='[popData.csv].[American Indian and Alaska Native alone]' />
+          <map key='[American Indian and Alaska Native alone]' value='[fullData.csv].[American Indian and Alaska Native alone]' />
+          <map key='[Asian alone (popData.csv)]' value='[popData.csv].[Asian alone]' />
+          <map key='[Asian alone]' value='[fullData.csv].[Asian alone]' />
+          <map key='[Bachelor&apos;s degree or higher of persons age 25 years+, 2017-2021]' value='[fullData.csv].[Bachelor&apos;s degree or higher of persons age 25 years+, 2017-2021]' />
+          <map key='[Banned or not (eduWorkData.csv)]' value='[eduWorkData.csv].[Banned or not]' />
+          <map key='[Banned or not (housingData.csv)]' value='[housingData.csv].[Banned or not]' />
+          <map key='[Banned or not (popData.csv)]' value='[popData.csv].[Banned or not]' />
+          <map key='[Banned or not]' value='[fullData.csv].[Banned or not]' />
+          <map key='[Black or African American alone (popData.csv)]' value='[popData.csv].[Black or African American alone]' />
+          <map key='[Black or African American alone]' value='[fullData.csv].[Black or African American alone]' />
+          <map key='[Building permits, 2021 (housingData.csv)]' value='[housingData.csv].[Building permits, 2021]' />
+          <map key='[Building permits, 2021]' value='[fullData.csv].[Building permits, 2021]' />
+          <map key='[County Name (eduWorkData.csv)]' value='[eduWorkData.csv].[County Name]' />
+          <map key='[County Name (housingData.csv)]' value='[housingData.csv].[County Name]' />
+          <map key='[County Name (popData.csv)]' value='[popData.csv].[County Name]' />
+          <map key='[County Name]' value='[fullData.csv].[County Name]' />
+          <map key='[F1]' value='[fullData.csv].[F1]' />
+          <map key='[Female persons (popData.csv)]' value='[popData.csv].[Female persons]' />
+          <map key='[Female persons]' value='[fullData.csv].[Female persons]' />
+          <map key='[Foreign born persons, 2017-2021]' value='[fullData.csv].[Foreign born persons, 2017-2021]' />
+          <map key='[Foreign born persons2017-2021]' value='[popData.csv].[Foreign born persons2017-2021]' />
+          <map key='[High school graduate or higher of persons age 25 years+, 2017-2021]' value='[fullData.csv].[High school graduate or higher of persons age 25 years+, 2017-2021]' />
+          <map key='[High school graduate or higher of persons age 25 years+]' value='[housingData.csv].[High school graduate or higher of persons age 25 years+]' />
+          <map key='[Hispanic or Latino (popData.csv)]' value='[popData.csv].[Hispanic or Latino]' />
+          <map key='[Hispanic or Latino]' value='[fullData.csv].[Hispanic or Latino]' />
+          <map key='[Households with a broadband Internet subscription, 2017-2021]' value='[fullData.csv].[Households with a broadband Internet subscription, 2017-2021]' />
+          <map key='[Households with a broadband Internet subscription]' value='[housingData.csv].[Households with a broadband Internet subscription]' />
+          <map key='[Households with a computer, 2017-2021]' value='[fullData.csv].[Households with a computer, 2017-2021]' />
+          <map key='[Households with a computer]' value='[housingData.csv].[Households with a computer]' />
+          <map key='[Households, 2017-2021]' value='[fullData.csv].[Households, 2017-2021]' />
+          <map key='[Households]' value='[housingData.csv].[Households]' />
+          <map key='[Housing units, July 1, 2021, (V2021)]' value='[fullData.csv].[Housing units, July 1, 2021, (V2021)]' />
+          <map key='[Housing unitsJuly 12021()]' value='[popData.csv].[Housing unitsJuly 12021()]' />
+          <map key='[In civilian labor force, female of population age 16 years+, 2017-2021]' value='[fullData.csv].[In civilian labor force, female of population age 16 years+, 2017-2021]' />
+          <map key='[In civilian labor force, female of population age 16 years+]' value='[eduWorkData.csv].[In civilian labor force, female of population age 16 years+]' />
+          <map key='[In civilian labor force, total of population age 16 years+, 2017-2021]' value='[fullData.csv].[In civilian labor force, total of population age 16 years+, 2017-2021]' />
+          <map key='[In civilian labor force, total of population age 16 years+]' value='[eduWorkData.csv].[In civilian labor force, total of population age 16 years+]' />
+          <map key='[Land area in square miles, 2020 (eduWorkData.csv)]' value='[eduWorkData.csv].[Land area in square miles, 2020]' />
+          <map key='[Land area in square miles, 2020]' value='[fullData.csv].[Land area in square miles, 2020]' />
+          <map key='[Language other than English spoken at home of persons age 5 years+, 2017-2021]' value='[fullData.csv].[Language other than English spoken at home of persons age 5 years+, 2017-2021]' />
+          <map key='[Language other than English spoken at home of persons age 5 years+]' value='[housingData.csv].[Language other than English spoken at home of persons age 5 years+]' />
+          <map key='[Living in same house 1 year ago of persons age 1 year+, 2017-2021]' value='[fullData.csv].[Living in same house 1 year ago of persons age 1 year+, 2017-2021]' />
+          <map key='[Living in same house 1 year ago of persons age 1 year+]' value='[housingData.csv].[Living in same house 1 year ago of persons age 1 year+]' />
+          <map key='[Mean travel time to work (minutes), workers age 16 years+, 2017-2021]' value='[fullData.csv].[Mean travel time to work (minutes), workers age 16 years+, 2017-2021]' />
+          <map key='[Mean travel time to work (minutes), workers age 16 years+]' value='[eduWorkData.csv].[Mean travel time to work (minutes), workers age 16 years+]' />
+          <map key='[Median gross rent, 2017-2021]' value='[fullData.csv].[Median gross rent, 2017-2021]' />
+          <map key='[Median gross rent]' value='[housingData.csv].[Median gross rent]' />
+          <map key='[Median household income (in 2021 dollars), 2017-2021]' value='[fullData.csv].[Median household income (in 2021 dollars), 2017-2021]' />
+          <map key='[Median household income (in 2021 dollars)]' value='[eduWorkData.csv].[Median household income (in 2021 dollars)]' />
+          <map key='[Median selected monthly owner costs -with a mortgage, 2017-2021]' value='[fullData.csv].[Median selected monthly owner costs -with a mortgage, 2017-2021]' />
+          <map key='[Median selected monthly owner costs -with a mortgage]' value='[housingData.csv].[Median selected monthly owner costs -with a mortgage]' />
+          <map key='[Median selected monthly owner costs -without a mortgage, 2017-2021]' value='[fullData.csv].[Median selected monthly owner costs -without a mortgage, 2017-2021]' />
+          <map key='[Median selected monthly owner costs -without a mortgage]' value='[housingData.csv].[Median selected monthly owner costs -without a mortgage]' />
+          <map key='[Median value of owner-occupied housing units, 2017-2021]' value='[fullData.csv].[Median value of owner-occupied housing units, 2017-2021]' />
+          <map key='[Median value of owner-occupied housing units]' value='[housingData.csv].[Median value of owner-occupied housing units]' />
+          <map key='[Native Hawaiian and Other Pacific Islander alone (popData.csv)]' value='[popData.csv].[Native Hawaiian and Other Pacific Islander alone]' />
+          <map key='[Native Hawaiian and Other Pacific Islander alone]' value='[fullData.csv].[Native Hawaiian and Other Pacific Islander alone]' />
+          <map key='[Owner-occupied housing unit rate, 2017-2021]' value='[fullData.csv].[Owner-occupied housing unit rate, 2017-2021]' />
+          <map key='[Per capita income in past 12 months (in 2021 dollars), 2017-2021]' value='[fullData.csv].[Per capita income in past 12 months (in 2021 dollars), 2017-2021]' />
+          <map key='[Per capita income in past 12 months (in 2021 dollars)]' value='[eduWorkData.csv].[Per capita income in past 12 months (in 2021 dollars)]' />
+          <map key='[Persons 65 years and over (popData.csv)]' value='[popData.csv].[Persons 65 years and over]' />
+          <map key='[Persons 65 years and over]' value='[fullData.csv].[Persons 65 years and over]' />
+          <map key='[Persons in poverty (eduWorkData.csv)]' value='[eduWorkData.csv].[Persons in poverty]' />
+          <map key='[Persons in poverty]' value='[fullData.csv].[Persons in poverty]' />
+          <map key='[Persons per household, 2017-2021]' value='[fullData.csv].[Persons per household, 2017-2021]' />
+          <map key='[Persons per household]' value='[housingData.csv].[Persons per household]' />
+          <map key='[Persons under 18 years (popData.csv)]' value='[popData.csv].[Persons under 18 years]' />
+          <map key='[Persons under 18 years]' value='[fullData.csv].[Persons under 18 years]' />
+          <map key='[Persons under 5 years (popData.csv)]' value='[popData.csv].[Persons under 5 years]' />
+          <map key='[Persons under 5 years]' value='[fullData.csv].[Persons under 5 years]' />
+          <map key='[Persons without health insurance, under age 65 years (eduWorkData.csv)]' value='[eduWorkData.csv].[Persons without health insurance, under age 65 years]' />
+          <map key='[Persons without health insurance, under age 65 years]' value='[fullData.csv].[Persons without health insurance, under age 65 years]' />
+          <map key='[Population Estimates, July 1 2021, (V2021)]' value='[fullData.csv].[Population Estimates, July 1 2021, (V2021)]' />
+          <map key='[Population EstimatesJuly 1 2021()]' value='[popData.csv].[Population EstimatesJuly 1 2021()]' />
+          <map key='[Population per square mile, 2020 (eduWorkData.csv)]' value='[eduWorkData.csv].[Population per square mile, 2020]' />
+          <map key='[Population per square mile, 2020]' value='[fullData.csv].[Population per square mile, 2020]' />
+          <map key='[Total annual payroll, 2020 ($1,000) (eduWorkData.csv)]' value='[eduWorkData.csv].[Total annual payroll, 2020 ($1,000)]' />
+          <map key='[Total annual payroll, 2020 ($1,000)]' value='[fullData.csv].[Total annual payroll, 2020 ($1,000)]' />
+          <map key='[Total employer establishments, 2020 (eduWorkData.csv)]' value='[eduWorkData.csv].[Total employer establishments, 2020]' />
+          <map key='[Total employer establishments, 2020]' value='[fullData.csv].[Total employer establishments, 2020]' />
+          <map key='[Total employment, 2020 (eduWorkData.csv)]' value='[eduWorkData.csv].[Total employment, 2020]' />
+          <map key='[Total employment, 2020]' value='[fullData.csv].[Total employment, 2020]' />
+          <map key='[Total retail sales per capita, 2017 (eduWorkData.csv)]' value='[eduWorkData.csv].[Total retail sales per capita, 2017]' />
+          <map key='[Total retail sales per capita, 2017]' value='[fullData.csv].[Total retail sales per capita, 2017]' />
+          <map key='[Two or More Races (popData.csv)]' value='[popData.csv].[Two or More Races]' />
+          <map key='[Two or More Races]' value='[fullData.csv].[Two or More Races]' />
+          <map key='[Veterans, 2017-2021]' value='[fullData.csv].[Veterans, 2017-2021]' />
+          <map key='[Veterans2017-2021]' value='[popData.csv].[Veterans2017-2021]' />
+          <map key='[White alone (popData.csv)]' value='[popData.csv].[White alone]' />
+          <map key='[White alone, not Hispanic or Latino]' value='[fullData.csv].[White alone, not Hispanic or Latino]' />
+          <map key='[White alone]' value='[fullData.csv].[White alone]' />
+          <map key='[White alonenot Hispanic or Latino]' value='[popData.csv].[White alonenot Hispanic or Latino]' />
+          <map key='[With a disability, under age 65 years, 2017-2021]' value='[fullData.csv].[With a disability, under age 65 years, 2017-2021]' />
+          <map key='[With a disability, under age 65 years]' value='[eduWorkData.csv].[With a disability, under age 65 years]' />
+        </cols>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[eduWorkData.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[housingData.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>F1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[F1]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>F1</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[County Name]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>County Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population Estimates, July 1 2021, (V2021)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population Estimates, July 1 2021, (V2021)]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Population Estimates, July 1 2021, (V2021)</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons under 5 years</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons under 5 years]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Persons under 5 years</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons under 18 years</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons under 18 years]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Persons under 18 years</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons 65 years and over</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons 65 years and over]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Persons 65 years and over</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Female persons</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Female persons]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Female persons</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>White alone</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[White alone]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>White alone</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Black or African American alone</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Black or African American alone]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Black or African American alone</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>American Indian and Alaska Native alone</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[American Indian and Alaska Native alone]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>American Indian and Alaska Native alone</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Asian alone</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Asian alone]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Asian alone</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Native Hawaiian and Other Pacific Islander alone</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Native Hawaiian and Other Pacific Islander alone]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Native Hawaiian and Other Pacific Islander alone</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Two or More Races</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Two or More Races]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Two or More Races</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hispanic or Latino</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hispanic or Latino]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Hispanic or Latino</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>White alone, not Hispanic or Latino</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[White alone, not Hispanic or Latino]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>White alone, not Hispanic or Latino</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Veterans, 2017-2021</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Veterans, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Veterans, 2017-2021</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Foreign born persons, 2017-2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Foreign born persons, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Foreign born persons, 2017-2021</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Housing units, July 1, 2021, (V2021)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Housing units, July 1, 2021, (V2021)]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Housing units, July 1, 2021, (V2021)</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Owner-occupied housing unit rate, 2017-2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Owner-occupied housing unit rate, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Owner-occupied housing unit rate, 2017-2021</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median value of owner-occupied housing units, 2017-2021</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median value of owner-occupied housing units, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Median value of owner-occupied housing units, 2017-2021</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median selected monthly owner costs -with a mortgage, 2017-2021</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median selected monthly owner costs -with a mortgage, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Median selected monthly owner costs -with a mortgage, 2017-2021</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median selected monthly owner costs -without a mortgage, 2017-2021</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median selected monthly owner costs -without a mortgage, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Median selected monthly owner costs -without a mortgage, 2017-2021</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median gross rent, 2017-2021</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median gross rent, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Median gross rent, 2017-2021</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Building permits, 2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Building permits, 2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Building permits, 2021</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Households, 2017-2021</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Households, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Households, 2017-2021</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons per household, 2017-2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons per household, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Persons per household, 2017-2021</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Living in same house 1 year ago of persons age 1 year+, 2017-2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Living in same house 1 year ago of persons age 1 year+, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Living in same house 1 year ago of persons age 1 year+, 2017-2021</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Language other than English spoken at home of persons age 5 years+, 2017-2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Language other than English spoken at home of persons age 5 years+, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Language other than English spoken at home of persons age 5 years+, 2017-2021</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Households with a computer, 2017-2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Households with a computer, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Households with a computer, 2017-2021</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Households with a broadband Internet subscription, 2017-2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Households with a broadband Internet subscription, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Households with a broadband Internet subscription, 2017-2021</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>High school graduate or higher of persons age 25 years+, 2017-2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[High school graduate or higher of persons age 25 years+, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>High school graduate or higher of persons age 25 years+, 2017-2021</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bachelor&apos;s degree or higher of persons age 25 years+, 2017-2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Bachelor&apos;s degree or higher of persons age 25 years+, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Bachelor&apos;s degree or higher of persons age 25 years+, 2017-2021</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>With a disability, under age 65 years, 2017-2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[With a disability, under age 65 years, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>With a disability, under age 65 years, 2017-2021</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons without health insurance, under age 65 years</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons without health insurance, under age 65 years]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Persons without health insurance, under age 65 years</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>In civilian labor force, total of population age 16 years+, 2017-2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[In civilian labor force, total of population age 16 years+, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>In civilian labor force, total of population age 16 years+, 2017-2021</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>In civilian labor force, female of population age 16 years+, 2017-2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[In civilian labor force, female of population age 16 years+, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>In civilian labor force, female of population age 16 years+, 2017-2021</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total retail sales per capita, 2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total retail sales per capita, 2017]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Total retail sales per capita, 2017</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mean travel time to work (minutes), workers age 16 years+, 2017-2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mean travel time to work (minutes), workers age 16 years+, 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Mean travel time to work (minutes), workers age 16 years+, 2017-2021</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median household income (in 2021 dollars), 2017-2021</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median household income (in 2021 dollars), 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Median household income (in 2021 dollars), 2017-2021</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Per capita income in past 12 months (in 2021 dollars), 2017-2021</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Per capita income in past 12 months (in 2021 dollars), 2017-2021]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Per capita income in past 12 months (in 2021 dollars), 2017-2021</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons in poverty</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons in poverty]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Persons in poverty</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total employer establishments, 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total employer establishments, 2020]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Total employer establishments, 2020</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total employment, 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total employment, 2020]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Total employment, 2020</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total annual payroll, 2020 ($1,000)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total annual payroll, 2020 ($1,000)]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Total annual payroll, 2020 ($1,000)</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population per square mile, 2020</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population per square mile, 2020]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Population per square mile, 2020</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Land area in square miles, 2020</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Land area in square miles, 2020]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Land area in square miles, 2020</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Banned or not</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Banned or not]</local-name>
+            <parent-name>[fullData.csv]</parent-name>
+            <remote-alias>Banned or not</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[County Name (eduWorkData.csv)]</local-name>
+            <parent-name>[eduWorkData.csv]</parent-name>
+            <remote-alias>County Name</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[eduWorkData.csv_A742917106C142F781D416B70A93A989]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>With a disability, under age 65 years</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[With a disability, under age 65 years]</local-name>
+            <parent-name>[eduWorkData.csv]</parent-name>
+            <remote-alias>With a disability, under age 65 years</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[eduWorkData.csv_A742917106C142F781D416B70A93A989]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons without health insurance, under age 65 years</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons without health insurance, under age 65 years (eduWorkData.csv)]</local-name>
+            <parent-name>[eduWorkData.csv]</parent-name>
+            <remote-alias>Persons without health insurance, under age 65 years</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[eduWorkData.csv_A742917106C142F781D416B70A93A989]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>In civilian labor force, total of population age 16 years+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[In civilian labor force, total of population age 16 years+]</local-name>
+            <parent-name>[eduWorkData.csv]</parent-name>
+            <remote-alias>In civilian labor force, total of population age 16 years+</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[eduWorkData.csv_A742917106C142F781D416B70A93A989]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>In civilian labor force, female of population age 16 years+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[In civilian labor force, female of population age 16 years+]</local-name>
+            <parent-name>[eduWorkData.csv]</parent-name>
+            <remote-alias>In civilian labor force, female of population age 16 years+</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[eduWorkData.csv_A742917106C142F781D416B70A93A989]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total retail sales per capita, 2017</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total retail sales per capita, 2017 (eduWorkData.csv)]</local-name>
+            <parent-name>[eduWorkData.csv]</parent-name>
+            <remote-alias>Total retail sales per capita, 2017</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[eduWorkData.csv_A742917106C142F781D416B70A93A989]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mean travel time to work (minutes), workers age 16 years+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mean travel time to work (minutes), workers age 16 years+]</local-name>
+            <parent-name>[eduWorkData.csv]</parent-name>
+            <remote-alias>Mean travel time to work (minutes), workers age 16 years+</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[eduWorkData.csv_A742917106C142F781D416B70A93A989]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median household income (in 2021 dollars)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median household income (in 2021 dollars)]</local-name>
+            <parent-name>[eduWorkData.csv]</parent-name>
+            <remote-alias>Median household income (in 2021 dollars)</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[eduWorkData.csv_A742917106C142F781D416B70A93A989]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Per capita income in past 12 months (in 2021 dollars)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Per capita income in past 12 months (in 2021 dollars)]</local-name>
+            <parent-name>[eduWorkData.csv]</parent-name>
+            <remote-alias>Per capita income in past 12 months (in 2021 dollars)</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[eduWorkData.csv_A742917106C142F781D416B70A93A989]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons in poverty</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons in poverty (eduWorkData.csv)]</local-name>
+            <parent-name>[eduWorkData.csv]</parent-name>
+            <remote-alias>Persons in poverty</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[eduWorkData.csv_A742917106C142F781D416B70A93A989]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total employer establishments, 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total employer establishments, 2020 (eduWorkData.csv)]</local-name>
+            <parent-name>[eduWorkData.csv]</parent-name>
+            <remote-alias>Total employer establishments, 2020</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[eduWorkData.csv_A742917106C142F781D416B70A93A989]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total employment, 2020</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total employment, 2020 (eduWorkData.csv)]</local-name>
+            <parent-name>[eduWorkData.csv]</parent-name>
+            <remote-alias>Total employment, 2020</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[eduWorkData.csv_A742917106C142F781D416B70A93A989]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total annual payroll, 2020 ($1,000)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total annual payroll, 2020 ($1,000) (eduWorkData.csv)]</local-name>
+            <parent-name>[eduWorkData.csv]</parent-name>
+            <remote-alias>Total annual payroll, 2020 ($1,000)</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[eduWorkData.csv_A742917106C142F781D416B70A93A989]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population per square mile, 2020</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population per square mile, 2020 (eduWorkData.csv)]</local-name>
+            <parent-name>[eduWorkData.csv]</parent-name>
+            <remote-alias>Population per square mile, 2020</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[eduWorkData.csv_A742917106C142F781D416B70A93A989]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Land area in square miles, 2020</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Land area in square miles, 2020 (eduWorkData.csv)]</local-name>
+            <parent-name>[eduWorkData.csv]</parent-name>
+            <remote-alias>Land area in square miles, 2020</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[eduWorkData.csv_A742917106C142F781D416B70A93A989]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Banned or not</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Banned or not (eduWorkData.csv)]</local-name>
+            <parent-name>[eduWorkData.csv]</parent-name>
+            <remote-alias>Banned or not</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[eduWorkData.csv_A742917106C142F781D416B70A93A989]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[County Name (housingData.csv)]</local-name>
+            <parent-name>[housingData.csv]</parent-name>
+            <remote-alias>County Name</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[housingData.csv_59A7964884BE40CB90375ACA8719DCF7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median value of owner-occupied housing units</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median value of owner-occupied housing units]</local-name>
+            <parent-name>[housingData.csv]</parent-name>
+            <remote-alias>Median value of owner-occupied housing units</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[housingData.csv_59A7964884BE40CB90375ACA8719DCF7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median selected monthly owner costs -with a mortgage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median selected monthly owner costs -with a mortgage]</local-name>
+            <parent-name>[housingData.csv]</parent-name>
+            <remote-alias>Median selected monthly owner costs -with a mortgage</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[housingData.csv_59A7964884BE40CB90375ACA8719DCF7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median selected monthly owner costs -without a mortgage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median selected monthly owner costs -without a mortgage]</local-name>
+            <parent-name>[housingData.csv]</parent-name>
+            <remote-alias>Median selected monthly owner costs -without a mortgage</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[housingData.csv_59A7964884BE40CB90375ACA8719DCF7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Median gross rent</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Median gross rent]</local-name>
+            <parent-name>[housingData.csv]</parent-name>
+            <remote-alias>Median gross rent</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[housingData.csv_59A7964884BE40CB90375ACA8719DCF7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Building permits, 2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Building permits, 2021 (housingData.csv)]</local-name>
+            <parent-name>[housingData.csv]</parent-name>
+            <remote-alias>Building permits, 2021</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[housingData.csv_59A7964884BE40CB90375ACA8719DCF7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Households</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Households]</local-name>
+            <parent-name>[housingData.csv]</parent-name>
+            <remote-alias>Households</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[housingData.csv_59A7964884BE40CB90375ACA8719DCF7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons per household</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons per household]</local-name>
+            <parent-name>[housingData.csv]</parent-name>
+            <remote-alias>Persons per household</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[housingData.csv_59A7964884BE40CB90375ACA8719DCF7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Living in same house 1 year ago of persons age 1 year+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Living in same house 1 year ago of persons age 1 year+]</local-name>
+            <parent-name>[housingData.csv]</parent-name>
+            <remote-alias>Living in same house 1 year ago of persons age 1 year+</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[housingData.csv_59A7964884BE40CB90375ACA8719DCF7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Language other than English spoken at home of persons age 5 years+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Language other than English spoken at home of persons age 5 years+]</local-name>
+            <parent-name>[housingData.csv]</parent-name>
+            <remote-alias>Language other than English spoken at home of persons age 5 years+</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[housingData.csv_59A7964884BE40CB90375ACA8719DCF7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Households with a computer</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Households with a computer]</local-name>
+            <parent-name>[housingData.csv]</parent-name>
+            <remote-alias>Households with a computer</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[housingData.csv_59A7964884BE40CB90375ACA8719DCF7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Households with a broadband Internet subscription</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Households with a broadband Internet subscription]</local-name>
+            <parent-name>[housingData.csv]</parent-name>
+            <remote-alias>Households with a broadband Internet subscription</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[housingData.csv_59A7964884BE40CB90375ACA8719DCF7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>High school graduate or higher of persons age 25 years+</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[High school graduate or higher of persons age 25 years+]</local-name>
+            <parent-name>[housingData.csv]</parent-name>
+            <remote-alias>High school graduate or higher of persons age 25 years+</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[housingData.csv_59A7964884BE40CB90375ACA8719DCF7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Banned or not</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Banned or not (housingData.csv)]</local-name>
+            <parent-name>[housingData.csv]</parent-name>
+            <remote-alias>Banned or not</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[housingData.csv_59A7964884BE40CB90375ACA8719DCF7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>County Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[County Name (popData.csv)]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>County Name</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population EstimatesJuly 1 2021()</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Population EstimatesJuly 1 2021()]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>Population EstimatesJuly 1 2021()</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons under 5 years</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons under 5 years (popData.csv)]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>Persons under 5 years</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons under 18 years</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons under 18 years (popData.csv)]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>Persons under 18 years</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Persons 65 years and over</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Persons 65 years and over (popData.csv)]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>Persons 65 years and over</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Female persons</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Female persons (popData.csv)]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>Female persons</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>White alone</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[White alone (popData.csv)]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>White alone</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Black or African American alone</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Black or African American alone (popData.csv)]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>Black or African American alone</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>American Indian and Alaska Native alone</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[American Indian and Alaska Native alone (popData.csv)]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>American Indian and Alaska Native alone</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Asian alone</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Asian alone (popData.csv)]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>Asian alone</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Native Hawaiian and Other Pacific Islander alone</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Native Hawaiian and Other Pacific Islander alone (popData.csv)]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>Native Hawaiian and Other Pacific Islander alone</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Two or More Races</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Two or More Races (popData.csv)]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>Two or More Races</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Hispanic or Latino</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Hispanic or Latino (popData.csv)]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>Hispanic or Latino</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>White alonenot Hispanic or Latino</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[White alonenot Hispanic or Latino]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>White alonenot Hispanic or Latino</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Veterans2017-2021</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Veterans2017-2021]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>Veterans2017-2021</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Foreign born persons2017-2021</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Foreign born persons2017-2021]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>Foreign born persons2017-2021</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Housing unitsJuly 12021()</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Housing unitsJuly 12021()]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>Housing unitsJuly 12021()</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Banned or not</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Banned or not (popData.csv)]</local-name>
+            <parent-name>[popData.csv]</parent-name>
+            <remote-alias>Banned or not</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[County Name (eduWorkData.csv)]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column datatype='string' name='[County Name (housingData.csv)]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column datatype='string' name='[County Name (popData.csv)]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column datatype='string' name='[County Name]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column datatype='integer' hidden='true' name='[F1]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='eduWorkData.csv' datatype='table' name='[__tableau_internal_object_id__].[eduWorkData.csv_A742917106C142F781D416B70A93A989]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='fullData.csv' datatype='table' name='[__tableau_internal_object_id__].[fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='housingData.csv' datatype='table' name='[__tableau_internal_object_id__].[housingData.csv_59A7964884BE40CB90375ACA8719DCF7]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='popData.csv' datatype='table' name='[__tableau_internal_object_id__].[popData.csv_1D3C2973AAF647C3905A5AA940C1D74C]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='eduWorkData.csv' id='eduWorkData.csv_A742917106C142F781D416B70A93A989'>
+            <properties context=''>
+              <relation connection='textscan.1ma76v714rhswk1h5rndk0osl2xr' name='eduWorkData.csv' table='[eduWorkData#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='County Name' ordinal='0' />
+                  <column datatype='real' name='With a disability, under age 65 years' ordinal='1' />
+                  <column datatype='real' name='Persons without health insurance, under age 65 years' ordinal='2' />
+                  <column datatype='real' name='In civilian labor force, total of population age 16 years+' ordinal='3' />
+                  <column datatype='real' name='In civilian labor force, female of population age 16 years+' ordinal='4' />
+                  <column datatype='integer' name='Total retail sales per capita, 2017' ordinal='5' />
+                  <column datatype='real' name='Mean travel time to work (minutes), workers age 16 years+' ordinal='6' />
+                  <column datatype='integer' name='Median household income (in 2021 dollars)' ordinal='7' />
+                  <column datatype='integer' name='Per capita income in past 12 months (in 2021 dollars)' ordinal='8' />
+                  <column datatype='real' name='Persons in poverty' ordinal='9' />
+                  <column datatype='integer' name='Total employer establishments, 2020' ordinal='10' />
+                  <column datatype='integer' name='Total employment, 2020' ordinal='11' />
+                  <column datatype='integer' name='Total annual payroll, 2020 ($1,000)' ordinal='12' />
+                  <column datatype='real' name='Population per square mile, 2020' ordinal='13' />
+                  <column datatype='real' name='Land area in square miles, 2020' ordinal='14' />
+                  <column datatype='real' name='Banned or not' ordinal='15' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='fullData.csv' id='fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68'>
+            <properties context=''>
+              <relation connection='textscan.1ma76v714rhswk1h5rndk0osl2xr' name='fullData.csv' table='[fullData#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='F1' ordinal='0' />
+                  <column datatype='string' name='County Name' ordinal='1' />
+                  <column datatype='integer' name='Population Estimates, July 1 2021, (V2021)' ordinal='2' />
+                  <column datatype='real' name='Persons under 5 years' ordinal='3' />
+                  <column datatype='real' name='Persons under 18 years' ordinal='4' />
+                  <column datatype='real' name='Persons 65 years and over' ordinal='5' />
+                  <column datatype='real' name='Female persons' ordinal='6' />
+                  <column datatype='real' name='White alone' ordinal='7' />
+                  <column datatype='real' name='Black or African American alone' ordinal='8' />
+                  <column datatype='real' name='American Indian and Alaska Native alone' ordinal='9' />
+                  <column datatype='real' name='Asian alone' ordinal='10' />
+                  <column datatype='real' name='Native Hawaiian and Other Pacific Islander alone' ordinal='11' />
+                  <column datatype='real' name='Two or More Races' ordinal='12' />
+                  <column datatype='real' name='Hispanic or Latino' ordinal='13' />
+                  <column datatype='real' name='White alone, not Hispanic or Latino' ordinal='14' />
+                  <column datatype='integer' name='Veterans, 2017-2021' ordinal='15' />
+                  <column datatype='real' name='Foreign born persons, 2017-2021' ordinal='16' />
+                  <column datatype='integer' name='Housing units, July 1, 2021, (V2021)' ordinal='17' />
+                  <column datatype='real' name='Owner-occupied housing unit rate, 2017-2021' ordinal='18' />
+                  <column datatype='integer' name='Median value of owner-occupied housing units, 2017-2021' ordinal='19' />
+                  <column datatype='integer' name='Median selected monthly owner costs -with a mortgage, 2017-2021' ordinal='20' />
+                  <column datatype='integer' name='Median selected monthly owner costs -without a mortgage, 2017-2021' ordinal='21' />
+                  <column datatype='integer' name='Median gross rent, 2017-2021' ordinal='22' />
+                  <column datatype='real' name='Building permits, 2021' ordinal='23' />
+                  <column datatype='integer' name='Households, 2017-2021' ordinal='24' />
+                  <column datatype='real' name='Persons per household, 2017-2021' ordinal='25' />
+                  <column datatype='real' name='Living in same house 1 year ago of persons age 1 year+, 2017-2021' ordinal='26' />
+                  <column datatype='real' name='Language other than English spoken at home of persons age 5 years+, 2017-2021' ordinal='27' />
+                  <column datatype='real' name='Households with a computer, 2017-2021' ordinal='28' />
+                  <column datatype='real' name='Households with a broadband Internet subscription, 2017-2021' ordinal='29' />
+                  <column datatype='real' name='High school graduate or higher of persons age 25 years+, 2017-2021' ordinal='30' />
+                  <column datatype='real' name='Bachelor&apos;s degree or higher of persons age 25 years+, 2017-2021' ordinal='31' />
+                  <column datatype='real' name='With a disability, under age 65 years, 2017-2021' ordinal='32' />
+                  <column datatype='real' name='Persons without health insurance, under age 65 years' ordinal='33' />
+                  <column datatype='real' name='In civilian labor force, total of population age 16 years+, 2017-2021' ordinal='34' />
+                  <column datatype='real' name='In civilian labor force, female of population age 16 years+, 2017-2021' ordinal='35' />
+                  <column datatype='integer' name='Total retail sales per capita, 2017' ordinal='36' />
+                  <column datatype='real' name='Mean travel time to work (minutes), workers age 16 years+, 2017-2021' ordinal='37' />
+                  <column datatype='integer' name='Median household income (in 2021 dollars), 2017-2021' ordinal='38' />
+                  <column datatype='integer' name='Per capita income in past 12 months (in 2021 dollars), 2017-2021' ordinal='39' />
+                  <column datatype='real' name='Persons in poverty' ordinal='40' />
+                  <column datatype='integer' name='Total employer establishments, 2020' ordinal='41' />
+                  <column datatype='integer' name='Total employment, 2020' ordinal='42' />
+                  <column datatype='integer' name='Total annual payroll, 2020 ($1,000)' ordinal='43' />
+                  <column datatype='real' name='Population per square mile, 2020' ordinal='44' />
+                  <column datatype='real' name='Land area in square miles, 2020' ordinal='45' />
+                  <column datatype='real' name='Banned or not' ordinal='46' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='housingData.csv' id='housingData.csv_59A7964884BE40CB90375ACA8719DCF7'>
+            <properties context=''>
+              <relation connection='textscan.1ma76v714rhswk1h5rndk0osl2xr' name='housingData.csv' table='[housingData#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='County Name' ordinal='0' />
+                  <column datatype='integer' name='Median value of owner-occupied housing units' ordinal='1' />
+                  <column datatype='integer' name='Median selected monthly owner costs -with a mortgage' ordinal='2' />
+                  <column datatype='integer' name='Median selected monthly owner costs -without a mortgage' ordinal='3' />
+                  <column datatype='integer' name='Median gross rent' ordinal='4' />
+                  <column datatype='real' name='Building permits, 2021' ordinal='5' />
+                  <column datatype='integer' name='Households' ordinal='6' />
+                  <column datatype='real' name='Persons per household' ordinal='7' />
+                  <column datatype='real' name='Living in same house 1 year ago of persons age 1 year+' ordinal='8' />
+                  <column datatype='real' name='Language other than English spoken at home of persons age 5 years+' ordinal='9' />
+                  <column datatype='real' name='Households with a computer' ordinal='10' />
+                  <column datatype='real' name='Households with a broadband Internet subscription' ordinal='11' />
+                  <column datatype='real' name='High school graduate or higher of persons age 25 years+' ordinal='12' />
+                  <column datatype='real' name='Banned or not' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='popData.csv' id='popData.csv_1D3C2973AAF647C3905A5AA940C1D74C'>
+            <properties context=''>
+              <relation connection='textscan.1ma76v714rhswk1h5rndk0osl2xr' name='popData.csv' table='[popData#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='County Name' ordinal='0' />
+                  <column datatype='integer' name='Population EstimatesJuly 1 2021()' ordinal='1' />
+                  <column datatype='real' name='Persons under 5 years' ordinal='2' />
+                  <column datatype='real' name='Persons under 18 years' ordinal='3' />
+                  <column datatype='real' name='Persons 65 years and over' ordinal='4' />
+                  <column datatype='real' name='Female persons' ordinal='5' />
+                  <column datatype='real' name='White alone' ordinal='6' />
+                  <column datatype='real' name='Black or African American alone' ordinal='7' />
+                  <column datatype='real' name='American Indian and Alaska Native alone' ordinal='8' />
+                  <column datatype='real' name='Asian alone' ordinal='9' />
+                  <column datatype='real' name='Native Hawaiian and Other Pacific Islander alone' ordinal='10' />
+                  <column datatype='real' name='Two or More Races' ordinal='11' />
+                  <column datatype='real' name='Hispanic or Latino' ordinal='12' />
+                  <column datatype='real' name='White alonenot Hispanic or Latino' ordinal='13' />
+                  <column datatype='integer' name='Veterans2017-2021' ordinal='14' />
+                  <column datatype='real' name='Foreign born persons2017-2021' ordinal='15' />
+                  <column datatype='integer' name='Housing unitsJuly 12021()' ordinal='16' />
+                  <column datatype='real' name='Banned or not' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[County Name]' />
+              <expression op='[County Name (eduWorkData.csv)]' />
+            </expression>
+            <first-end-point object-id='fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68' />
+            <second-end-point object-id='eduWorkData.csv_A742917106C142F781D416B70A93A989' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[County Name]' />
+              <expression op='[County Name (housingData.csv)]' />
+            </expression>
+            <first-end-point object-id='fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68' />
+            <second-end-point object-id='housingData.csv_59A7964884BE40CB90375ACA8719DCF7' />
+          </relationship>
+          <relationship>
+            <expression op='='>
+              <expression op='[County Name]' />
+              <expression op='[County Name (popData.csv)]' />
+            </expression>
+            <first-end-point object-id='fullData.csv_727AAF2FE36248AB9CE32A5991EF7C68' />
+            <second-end-point object-id='popData.csv_1D3C2973AAF647C3905A5AA940C1D74C' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{9EB464E3-AB42-4B77-901A-10C455C48C33}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{37B79DFE-5F90-48A8-8D95-EA10D799549C}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='384' name='Sheet 1' width='384'>
+      iVBORw0KGgoAAAANSUhEUgAAAYAAAAGACAYAAACkx7W/AAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAFXUlEQVR4nO3VMQEAIAzAMMC/5yFjRxMF/XpnZg4AOW87AIAdBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABR
+      BgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUA
+      AFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQ
+      ZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEG
+      ABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAA
+      UQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBl
+      AABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEGABBlAABRBgAQZQAAUQYA
+      EGUAAFEGABBlAABRBgAQZQAAUQYAEGUAAFEfFxoG/IiMv0YAAAAASUVORK5CYII=
+    </thumbnail>
+  </thumbnails>
+</workbook>
