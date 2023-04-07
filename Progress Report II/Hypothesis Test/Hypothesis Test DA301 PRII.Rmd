@@ -1,0 +1,130 @@
+---
+title: "Logistic Regression for HypeTest"
+author: "Kazi Nafis"
+date: "2022-04-06"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = "~/Fall 22/STATS/rstudioStats/finalProject")
+```
+
+```{r}
+library(dplyr)
+library(ggplot2)
+library(car)
+library(rms)
+library(ResourceSelection)
+library(broom)
+```
+
+```{r}
+```
+
+
+```{r}
+HypData <- read.csv("/Users/kazinafis/Downloads/HypTest_data.csv")
+
+str(HypData)
+summary(HypData)
+```
+
+```{r}
+# Load necessary libraries
+library(dplyr)
+library(rms)
+
+# Modify HypData
+HypData$Gdppc <- as.numeric(gsub(",", "", HypData$Gdppc))
+
+# Logistic Regression
+logit_model <- glm(Ban_or_not ~ Gdppc, family = binomial, data = HypData)
+
+# Model Summary
+summary(logit_model)
+
+```
+```{r}
+# Load the necessary library
+library(caret)
+
+# Create a data partition (70% training, 30% testing)
+set.seed(123)
+split_index <- createDataPartition(HypData$Ban_or_not, p = 0.7, list = FALSE)
+train_data <- HypData[split_index, ]
+test_data <- HypData[-split_index, ]
+
+# Fit the logistic regression model using the training data
+model <- glm(Ban_or_not ~ Gdppc, family = binomial, data = train_data)
+
+# Make predictions on the test data
+test_data$predicted_probs <- predict(model, newdata = test_data, type = "response")
+test_data$predicted_class <- ifelse(test_data$predicted_probs > 0.5, 1, 0)
+
+# Calculate accuracy
+accuracy <- mean(test_data$predicted_class == test_data$Ban_or_not)
+print(accuracy)
+
+```
+```{r}
+# Load the necessary libraries
+library(caret)
+library(cvAUC)
+
+# Define the model training control
+cv_control <- trainControl(method = "cv", number = 10, classProbs = TRUE, summaryFunction = twoClassSummary)
+
+# Load the caret package
+library(caret)
+
+# Prepare the data (replace this with your actual data)
+data(iris)
+iris$Species <- ifelse(iris$Species == "setosa", "setosa", "not_setosa")
+iris$Species <- as.factor(iris$Species)
+
+# Set up trainControl with classProbs = TRUE
+trControl <- trainControl(method = "cv",  # Cross-validation
+                          number = 5,     # Number of folds
+                          summaryFunction = twoClassSummary,  # Use ROC summary
+                          classProbs = TRUE,  # Calculate class probabilities
+                          savePredictions = TRUE)
+
+# Train the model with trainControl
+model <- train(Species ~ .,
+               data = iris,
+               method = "glm",
+               family = "binomial",
+               trControl = trControl,
+               metric = "ROC")
+
+# Print the model summary
+print(model)
+
+
+```
+```{r}
+# Load the necessary library
+library(caret)
+
+# Create a confusion matrix
+cm <- confusionMatrix(as.factor(test_data$predicted_class), as.factor(test_data$Ban_or_not))
+print(cm)
+
+# Performance metrics are included in the confusionMatrix output
+
+```
+```{r}
+# Load the necessary libraries
+library(pROC)
+
+# Calculate ROC curve and AUC using test data
+roc_obj <- roc(test_data$Ban_or_not, test_data$predicted_probs)
+auc <- auc(roc_obj)
+print(auc)
+
+# Plot ROC curve
+plot(roc_obj, main = "ROC Curve")
+
+```
+
