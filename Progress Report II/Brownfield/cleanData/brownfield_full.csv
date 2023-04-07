@@ -1,0 +1,316 @@
+ID,name,size,address,city,county,city,state,zipcode,Current Zoning,Vacancy,Buildingspace,Application_Entry Date,Vacancy_Description
+1,Industrial Park at Center Hill and Este Avenue,60,Center Hill Road and Este Avenue in Winton Hills,Cincinnati,Hamilton,Cincinnati,OH,45202,Commercial/Industrial,VACANT,0,6-Jan-06,Vacant
+2,Autolite,4.3,1205 Champlain Street,Toledo,Lucas,Toledo,OH,43604,Commercial/Industrial,VACANT,0,6-Jan-06,Vacant
+3,Aeronca,17.8,1712 Germantown Road,Middletown,Butler,Middletown,OH,45042,Commercial/Industrial,VACANT,0,26-Jun-06,Vacant
+4,NIBCO Foundry,24,1800 McCall Street,Dayton,Montgomery,Dayton,OH,45402,"Commercial/Industrial, Industrial",VACANT,0,12-Jul-06,Vacant
+5,Forest Cascade,0.9,0 Forest Street,Elyria,Lorain,Elyria,OH,44035,Industrial,PARTIALLY_OCCUPIED,0,7-Aug-06,Partially Occupied
+6,Tappan #1,13.27,208 Woodford Avenue,Elyria,Lorain,Elyria,OH,44035,Industrial,PARTIALLY_OCCUPIED,0,7-Aug-06,Partially Occupied
+7,Monarch Aluminum Trinity Building,5.6,9203 Detroit Avenue,Cleveland,Cuyahoga,Cleveland,OH,44114,Commercial/Industrial,VACANT,0,26-Oct-06,Vacant
+8,"Cleveland Asphalt Plant, Former",2.7,2900 West 3rd Street,Cleveland,Cuyahoga,Cleveland,OH,44114,Industrial,VACANT,-,26-Dec-06,Vacant
+9,Techcenter South,45,727 East Jenkins Avenue,Columbus,Franklin,Columbus,OH,43215,"Commercial, Commercial/Industrial, Industrial, Retail",PARTIALLY_OCCUPIED,1300000,7-Mar-07,Partially Occupied
+10,MetroWest,18.68,southwest corner of Gest & Evans Streets,Cincinnati,Hamilton,Cincinnati,OH,45202,Commercial/Industrial,PARTIALLY_OCCUPIED,250000,19-Mar-07,Partially Occupied
+11,Gorge-Prospect Overlook Bridge Edge,0.86,Water Street,Cuyahoga Falls,Summit,Cuyahoga Falls,OH,44221,Industrial,VACANT,0,21-Mar-07,Vacant
+12,"University of Dayton Research, Education, & Development Initiative",26.45,1600 Brown Street,Dayton,Montgomery,Dayton,OH,45402,-,-,0,22-Mar-07,-
+13,CF Terminal,74.55,2615 Brecksville Road,Richfield,Summit,Richfield,OH,44286,Commercial/Industrial,VACANT,0,30-Mar-07,Vacant
+14,Middletown Regional Hospital,16.6899,105 McKnight Drive,Middletown,Butler,Middletown,OH,45011,Residential,PARTIALLY_OCCUPIED,0,19-Apr-07,Partially Occupied
+15,Morgana East,5.1,3570 East 71st Street,Cleveland,Cuyahoga,Cleveland,OH,44114,-,-,0,23-Apr-07,-
+16,Keller Building,0.3663,409 West Water Street,Sandusky,Erie,Sandusky,OH,44870,-,VACANT,0,14-Jun-07,Vacant
+17,Bayfront Urban Revitalization,9.69,611 Shoreline Drive,Sandusky,Erie,Sandusky,OH,44870,-,-,0,14-Jun-07,-
+18,"Grandview Yard, Former Big Bear Warehouse Redevelopment",23.812,851 West Third Avenue,Grandview Heights,Franklin,Grandview Heights,OH,432123469,M1 - Commercial/Industrial,VACANT,0,14-Jul-09,Vacant
+19,Jaeger Union Tools,7.61,500 & 560 Nationwide Boulevard,Columbus,Franklin,Columbus,OH,43215,Industrial,PARTIALLY_OCCUPIED,0,15-May-08,Partially Occupied
+20,"National Refractories, Former",37.31,41738 Esterly Drive,Columbiana,Columbiana,East Liverpool,OH,43920,Industrial,PARTIALLY_OCCUPIED,0,4-Jun-08,Partially Occupied
+21,Goodyear Tire and Rubber,103.25,1144 East Market Street,Akron,Summit,Akron,OH,44308,Commercial/Industrial,PARTIALLY_OCCUPIED,0,1-Jul-08,Partially Occupied
+22,"YBM Property, Former",10.3,1505 Logan Avenue,Youngstown,Mahoning,Youngstown,OH,44503,Industrial Light,VACANT,0,31-Jul-08,Vacant
+23,Grandview Yard Development,26.63,842 West Goodale Boulevard,Grandview Heights,Franklin,Grandview Heights,OH,432123469,M1 - Commercial/Industrial,PARTIALLY_OCCUPIED,0,3-Aug-08,Partially Occupied
+24,Parcel #01.15103,1.74,No address at this time.,Barberton,Summit,Barberton,OH,44203,I1 - Light Industrial,VACANT,0,4-Aug-08,Vacant
+25,Parcel #01.15673,1.95,888 Wooster Road West,Barberton,Summit,Barberton,OH,44203,I3 - Heavy Industrial,VACANT,0,4-Aug-08,Vacant
+26,Elm Street,9.62,0 Elm Street,Elyria,Lorain,Elyria,OH,44035,Industrial,PARTIALLY_OCCUPIED,0,9-Oct-08,Partially Occupied
+27,"Frick-Gallagher Property, Former",5.08,330 South Ewing Street,Lancaster,Fairfield,Lancaster,OH,431309503,Industrial,VACANT,0,21-Oct-08,Vacant
+28,East Broadway Warehouse 605 Ltd.,79.41,1769 East Broadway Street,Northwood,Wood,Rossford,OH,43460,Industrial,PARTIALLY_OCCUPIED,219800,29-Oct-08,Partially Occupied
+29,Cuyahoga Community College Expansion Project-MetroHealth Skilled Nursing Facilit,106.354,4310 Richmond Road,Highland Hills,Cuyahoga,Cleveland,OH,44114,Institutional,VACANT,0,26-Nov-08,Vacant
+30,"Ecological Services of America, Inc. - Dayton",1.44,537 East Monument Avenue,Dayton,Montgomery,Dayton,OH,45402,I- Manufacturing & Light Assembly,VACANT,0,5-Dec-08,Vacant
+31,"Diesel Repair Shop, Former",-,600 River Avenue,New Boston,Scioto,New Boston,-,45662,Commercial/Industrial,ORPHANED,0,17-Dec-08,Orphaned/Abandoned
+32,Master Vision Polishing,5.75,440 Fair Road,Sidney,Shelby,Sidney,OH,45365,Light Industrial,VACANT,119000,30-Dec-08,Vacant
+33,"New Boston Coke Plant, Former",39.8,500-600 River Avenue,New Boston,Scioto,New Boston,OH,45662,Industrial/Commercial,ORPHANED,0,6-Jan-09,Orphaned/Abandoned
+34,550 North Third Street,5,550 North Third Street,Hamilton,Butler,Hamilton,OH,45011,Heavy Industrial (I-2),VACANT,0,13-Jul-09,Vacant
+35,"3M Site, Former",3,1206 North Fourth Street,Columbus,Franklin,Columbus,OH,43215,Industrial,VACANT,0,14-Jul-09,Vacant
+36,STM Property,5.27,810 First Avenue,Middletown,Butler,Middletown,OH,45042,"300 Industrial Vacant Land, 350 Industrial Warehouses Light",PARTIALLY_OCCUPIED,0,15-Jul-09,Partially Occupied
+37,NuTone,29.14,4820 Redbank Road; 5235 Madison Road; and Parcel #051-0008-0019,Cincinnati,Hamilton,Cincinnati,OH,45202,Industrial,VACANT,835000,12-Jul-06,Vacant
+38,915 West River,3.46,915 West River Road,Elyria,Lorain,Elyria,OH,44035,Industrial,PARTIALLY_OCCUPIED,0,7-Aug-06,Partially Occupied
+39,"Celotex Property-321 South Wayne Avenue, Former",27,321 South Wayne Avenue,Lockland,Hamilton,Lockland,OH,45215,Commercial/Industrial,VACANT,450000,22-Aug-06,Vacant
+40,"Mud Run Gun Club, Former",13.75,308 and 333 Pleasant Meadow Boulevard,Cuyahoga Falls,Summit,Cuyahoga Falls,OH,44221,R5,VACANT,0,1-Dec-09,Vacant
+41,"American Industrial Buildings and Art Metals Properties, Former",6.3,12369 and 12401 Euclid Avenue,Cleveland and East Cleveland,Cuyahoga,Cleveland,OH,44114,"GI-B3 General Industry, SI-C3 Semi-Industry",VACANT,0,2-Dec-09,Vacant
+42,JISCO Redevelopment,56,SR 776 & County Road 10,Jackson,Jackson,Jackson,OH,45640,-,VACANT,0,12-Jun-07,Vacant
+43,"CSX Chillicothe Rail Yard, Former",8.387,Corner of East 7th Street and Watt Street,Chillicothe,Ross,Chillicothe,OH,45601,Industrial,VACANT,0,25-Oct-07,Vacant
+44,XXKEM,3.07,4015 Stickney Avenue,Toledo,Lucas,Toledo,OH,43604,Industrial,VACANT,0,2-Jun-08,Vacant
+45,"YS&T Campbell Works Pickling Line, Former",8,20 Walton Avenue,Campbell,Mahoning,Campbell,OH,44405,H-1: Heavy Industrial,VACANT,0,3-Jul-08,Vacant
+46,"Aeroquip Property, Former",8.57,1410-1423 Albert Street,Youngstown,Mahoning,Youngstown,OH,44503,Industrial Light,VACANT,0,31-Jul-08,Vacant
+47,5300 Division Avenue,2.19,5300 Division Avenue,Cleveland,Cuyahoga,Cleveland,OH,44114,Heavy Industry,VACANT,0,1-Aug-08,Vacant
+48,Mill Creek Environmental Center and Interpretive Trail,55,5000 Warner Road,Garfield Heights,Cuyahoga,-,OH,441331009,Industrial U -11B,VACANT,0,4-Aug-08,Vacant
+49,Lead Smelter,7.4348,1551 Belden Avenue SE,Canton,Stark,Canton,OH,447014218,I-2 Heavy Industrial,VACANT,0,12-Aug-08,Vacant
+50,Brammer/Ironton Wharf,17.69,No address available,Ironton,Lawrence,Ironton,OH,45638,I2 (Industrial),PARTIALLY_OCCUPIED,0,19-Aug-08,Partially Occupied
+51,"Canton Drop Forge, Former",-,1100 Market Street SE,Canton,Stark,Canton,OH,447014218,Industrial,ORPHANED,0,5-Dec-08,Orphaned/Abandoned
+52,Molly Stark Hospital,34.7017,7900 Columbus Road NE,Louisville,Stark,Canton,OH,44708,R-1 - Single Family Residential,VACANT,0,5-Dec-08,Vacant
+53,Mahoningside,6.5,650 Summit Street NW,Warren,Trumbull,Warren,OH,44481,Manufacturing,VACANT,0,5-Dec-08,Vacant
+54,"Sparks Fueling Center, Former",11,4393 U.S. Route 40,New Paris,Preble,Eason,OH,45320,"420 (Small Detached Retail Stores Under 10,000 sq. ft.)",VACANT,0,6-Jan-09,Vacant
+55,AMONYX,5.56,215 City Park Avenue,Toledo,Lucas,Toledo,OH,43604,Limited Industrial,VACANT,0,24-Apr-09,Vacant
+56,Cool's Hoagie Property,0.116,152-154 North Fourth Street,Steubenville,Jefferson,Steubenville,OH,43952,"B-1, Central Business District",VACANT,0,9-Jul-09,Vacant
+57,Beazer East,48.5,2563 Front Street,Toledo,Lucas,Toledo,OH,43604,Industrial,VACANT,0,13-Jul-09,Vacant
+58,"Linden Place Property, Former Marion MGP",1.096,Southwest corner of West Columbia and Prospect Streets,Marion,Marion,Marion,OH,433011822,Residential,VACANT,0,14-Jul-09,Vacant
+59,Ice Creek Land Company,235,Hog Run Road at County Road 24,Ironton,Lawrence,Ironton,-,45638,Commercial,VACANT,0,16-Jul-09,Vacant
+60,"Norwalk Foundry, Former",2.5,53 Newton Street,Norwalk,Huron,Norwalk,OH,44857,"300 Industrial Vacant Land, 320 Foundries & Heavy Manufacturing",VACANT,0,17-Jul-09,Vacant
+61,"New York Central Railroad, Former",66.19,2701 North Bend Road,Ashtabula,Ashtabula,Ashtabula,OH,44004,Industrial,VACANT,0,16-Sep-09,Vacant
+62,Steam Plant,3.5,320 Water Street,Toledo,Lucas,Toledo,OH,43604,Commercial/Industrial,VACANT,50000,6-Jan-06,Vacant
+63,"Celotex Property-320 South Wayne Avenue, Former",31.9,320 South Wayne Avenue,Lockland,Hamilton,Lockland,OH,45215,Industrial,PARTIALLY_OCCUPIED,10000,22-Aug-06,Partially Occupied
+64,Midland Steel,21,10615 Madison Avenue,Cleveland,Cuyahoga,Cleveland,OH,44114,Commercial/Industrial,VACANT,21000,26-Dec-06,Vacant
+65,Collins Property,2.158,1783 Front Street,Cuyahoga Falls,Summit,Cuyahoga Falls,OH,44221,Industrial,VACANT,13700,16-Mar-07,Vacant
+66,ETRA LLC,0.597,1839 Front Street,Cuyahoga Falls,Summit,Cuyahoga Falls,OH,44221,Industrial,VACANT,12190,16-Mar-07,Vacant
+67,Overlook Area,2.09,1817 Front Street,Cuyahoga Falls,Summit,Cuyahoga Falls,OH,44221,Industrial,VACANT,13700,16-Mar-07,Vacant
+68,International Truck & Engine Lagonda Assembly Plant,65,2069 Lagonda Avenue,Springfield,Clark,Springfield,OH,45502,"Commercial/Industrial, Industrial",VACANT,0,19-Mar-07,Vacant
+69,24 West Boardman Street,0.16,24 West Boardman Street,Youngstown,Mahoning,Youngstown,OH,44503,B-1,VACANT,3131,3-Oct-08,Vacant
+70,Sterling Conveyors,6.2685,28 North Clark Street,Mount Sterling,Madison,Mount Sterling,OH,43143,Industrial,VACANT,95000,23-Mar-07,Vacant
+71,Deep Water Marina,7,803 West Shoreline Drive & 0 Water Street,Sandusky,Erie,Sandusky,OH,44870,"Commercial, Residential, Retail",PARTIALLY_OCCUPIED,1500,29-Mar-07,Partially Occupied
+72,GCDWR Old Garage,1,223 Center Street,Chardon,Geauga,Chardon,OH,44024,Commercial,PARTIALLY_OCCUPIED,6000,30-Mar-07,Partially Occupied
+73,Royal Sebring Properties,20.7,101 South 15th Street,Sebring,Mahoning,Sebring,OH,44672,Industrial,PARTIALLY_OCCUPIED,256000,30-Mar-07,Partially Occupied
+74,609 Bank Street,6,609 Bank Street,Painesville,Lake,Painesville,OH,44077,Commercial/Industrial,PARTIALLY_OCCUPIED,15000,21-Dec-07,Partially Occupied
+75,Jefferson Smurfit Paper Mill,24.788,401 West Mill Street,Circleville,Pickaway,Circleville,OH,43113,Industrial,VACANT,2000,15-May-08,Vacant
+76,Frick Gallagher,6,201 South Michigan Avenue,Wellston,Jackson,Jackson,OH,45640,-,VACANT,0,4-Jun-08,Vacant
+77,99 South Seiberling Street,10.36,99 South Seiberling Street,Akron,Summit,Akron,OH,44308,Commercial/Industrial,PARTIALLY_OCCUPIED,276836,6-Jun-08,Partially Occupied
+78,Midwest Service,5.816,605 Clark Street,Middletown,Butler,Middletown,OH,45042,Industrial,PARTIALLY_OCCUPIED,135000,22-Jul-08,Partially Occupied
+79,Tower on the Maumee,0.71,200 North Street Clair Street,Toledo,Lucas,Toledo,OH,43604,Commercial,VACANT,392000,1-Aug-08,Vacant
+80,17 Phelps Street,0.152,17 South Phelps Street,Youngstown,Mahoning,Youngstown,OH,44503,B-1,VACANT,6260,3-Oct-08,Vacant
+81,20 West Boardman Street,0.15,20 West Boardman Street,Youngstown,Mahoning,Youngstown,OH,44503,B-1,VACANT,3813,3-Oct-08,Vacant
+82,"Lorain Ford Assembly Plant, Former",77.7,5401 Baumhart Road,Lorain,Lorain,Lorain,-,44052,Industrial,VACANT,4100000,8-Oct-08,Vacant
+83,Elm Street Campus Mall,0.818,751 Elm Street,Youngstown,Mahoning,Youngstown,OH,44503,INS,PARTIALLY_OCCUPIED,46949,9-Oct-08,Partially Occupied
+84,Young Women's Christian Association (YWCA),0.3559,25 West Rayen Avenue,Youngstown,Mahoning,Youngstown,OH,44503,"B-1, Central Business",PARTIALLY_OCCUPIED,53200,9-Oct-08,Partially Occupied
+85,Malta Industrial Park,75.197,1833 North River Road,Malta,Morgan,McConnelsville,OH,43756,N/A,PARTIALLY_OCCUPIED,73350,22-Oct-08,Partially Occupied
+86,Shoreway Industrial Park,29.5,842 East 79th Street,Cleveland,Cuyahoga,Cleveland,OH,44114,General Industry,ORPHANED,453176,26-Nov-08,Orphaned/Abandoned
+87,Goodyear Tire and Rubber Building 116,2.98,200 South Martha Avenue,Akron,Summit,Akron,OH,44308,Commercial/Industrial,VACANT,603000,4-Dec-08,Vacant
+88,Crosley Building,1.543,"1333 Arlington Avenue, a.k.a. 1329 Arlington Avenue",Cincinnati,Hamilton,Cincinnati,OH,45202,M-3,VACANT,290000,4-Dec-08,Vacant
+89,Kress Building,0.173,111-121 West Federal Street,Youngstown,Mahoning,Youngstown,OH,44503,B-1,VACANT,45000,3-Mar-09,Vacant
+90,"General Clay Products, Former",14,550 Zanesville Avenue,Logan,Hocking,Logan,OH,431381276,M-1: Restricted Industrial; and M-2: General Industrial,VACANT,24000,29-Apr-09,Vacant
+91,Youngstown Sheet & Tube Office,0.184,2679 West Federal Street,Youngstown,Mahoning,Youngstown,OH,44503,Industrial Heavy,VACANT,8576,8-May-09,Vacant
+92,Lake Hospital Systems,8.45,10 East Washington Street,Painesville,Lake,Painesville,OH,44077,B-2,VACANT,270000,20-May-09,Vacant
+93,Hercules Trouser Company,0.421,315 East 7th Street,Manchester,Adams,Manchester,OH,45144,Commercial,VACANT,23040,27-May-09,Vacant
+94,Landmark Building,0.152,156 South Main Street,Akron,Summit,Akron,OH,44308,Commercial,VACANT,24120,2-Jul-09,Vacant
+95,Garden Street Property,37.61,208 Woodford Avenue and 856 Garden Street,Elyria,Lorain,Elyria,OH,44035,"300 Industrial Vacant Land; 330 Manufacturing and Assembly, Medium",PARTIALLY_OCCUPIED,211640,15-Jul-09,Partially Occupied
+96,"White Rubber, Former",2.5,835 Cleveland Road,Ravenna,Portage,Ravenna,OH,442661215,I-1 Industrial,VACANT,28000,5-Aug-09,Vacant
+97,"Piqua Power Plant, Former",2.815,915 East Main Street,Piqua,Miami,Piqua,OH,45356,Industrial,-,38400,17-Sep-09,-
+98,Middlebury MarketPlace,8,881 East Exchange Street,Akron,Summit,Akron,OH,44308,Retail,PARTIALLY_OCCUPIED,67000,13-Jul-06,Partially Occupied
+99,Buckeye Property,35,4610 State Road,Cuyahoga Falls,Summit,Cuyahoga Falls,OH,44221,Residential,VACANT,18000,1-Mar-07,Vacant
+100,"Bison Corporation, Former",6.05,1935 Allen Avenue SE,Canton,Stark,Canton,OH,447014218,"Commercial/Industrial, Industrial",PARTIALLY_OCCUPIED,107008,21-Mar-07,Partially Occupied
+101,Ford Lorain Additional Properties,174.5488,5401 Baumhart Road,Lorain,Lorain,Lorain,OH,44052,Industrial,VACANT,778800,30-Mar-07,Vacant
+102,Ohio Fire Brick Company,7.66,255 South Front Street,Oak Hill,Jackson,Jackson,OH,45640,Commercial/Industrial,PARTIALLY_OCCUPIED,0,12-Jun-07,Partially Occupied
+103,Columbus Police Heliport,7,681 West 3rd Avenue,Columbus,Franklin,Columbus,-,43215,Commercial,PARTIALLY_OCCUPIED,28000,29-Jul-08,Partially Occupied
+104,City of Toledo Warehouse District,37,"Bounded by I-75, Anthony Wayne, Lafayette St, Owens Corning Pkwy, Ottawa St, Clayton St, Broadway.",Toledo,Lucas,Toledo,OH,43604,"C-3, M-1, M-2, and P",PARTIALLY_OCCUPIED,120000,5-Dec-08,Partially Occupied
+105,S-21,1.38,209 and 271 South 21st Street,Newark,Licking,Newark,OH,43055,M1 (Light Manufacturing),VACANT,10800,16-Apr-09,Vacant
+106,"Brush Pottery, Former",1.65,87 Perry Street,Roseville,Perry,Roseville,OH,43777,Industrial,VACANT,68175,4-May-09,Vacant
+107,Penguin Cleaners and Professional Building,0.832,"5637, 5647, 5649-51 Mayfield Road",Lyndhurst,Cuyahoga,Lyndhurst,OH,44124,Commercial,PARTIALLY_OCCUPIED,8241,15-Jul-09,Partially Occupied
+108,"Republic Steel Facility, Former",393,410 and 411 Oberlin Avenue SW,Massillon,Stark,Massillon,OH,44646,Industrial,PARTIALLY_OCCUPIED,3000,22-Jul-09,Partially Occupied
+109,"Wean United Facility, Former",10.56,219 South Phelps Street,Youngstown,Mahoning,Youngstown,OH,44503,Industrial Unlimited,PARTIALLY_OCCUPIED,150000,24-Jul-09,Partially Occupied
+110,Marina District,125,1401 & 1552 Front Street,Toledo,Lucas,Toledo,OH,43604,Commercial/Industrial,VACANT,0,14-Mar-07,Vacant
+111,Moore McMillen,1.07,1850 Front Street,Cuyahoga Falls,Summit,Cuyahoga Falls,OH,44221,Industrial,PARTIALLY_OCCUPIED,19141,16-Mar-07,Partially Occupied
+112,"B&T Metals Company and Eickhold Glass Company, Former",4.03,425-435 & 401 West Town Street,Columbus,Franklin,Columbus,OH,43215,Manufacturing,PARTIALLY_OCCUPIED,192525,29-Jul-08,Partially Occupied
+113,Future Goodyear Headquarters and IRG Hotel,25,200 South Martha Avenue,Akron,Summit,Akron,OH,44308,Industrial,PARTIALLY_OCCUPIED,1861000,1-Aug-08,Partially Occupied
+114,"Clauss Cutlery Company, Former",5,223 North Prospect Street,Fremont,Sandusky,Fremont,OH,43420,I-1; Wholesale & Light Industry,VACANT,79000,12-Aug-08,Vacant
+115,"Harrison Terminal Building, Former",2.38,1220 Harrison Avenue,Cincinnati,Hamilton,Cincinnati,OH,45202,MG - Manufacturing General,PARTIALLY_OCCUPIED,60180,15-Sep-08,Partially Occupied
+116,State Road Shopping Center,24.64,2667-2927 State Road,Cuyahoga Falls,Summit,Cuyahoga Falls,-,44221,MU-4 (Mixed Use),PARTIALLY_OCCUPIED,351802,2-Dec-08,Partially Occupied
+117,Ben Venue - Phase 6,14.4,"138-150,154,160 and 190 Northfield Residential Road and 30 West Interstate Road",Bedford,Cuyahoga,Bedford,OH,44146,Industrial,PARTIALLY_OCCUPIED,107400,5-Dec-08,Partially Occupied
+118,Plant C,21,2715 Lake Road East,Ashtabula,Ashtabula,Ashtabula,OH,44047,"Commercial/Industrial, Industrial",PARTIALLY_OCCUPIED,150000,7-Feb-07,Partially Occupied
+119,Cemex,53,506 East Xenia Drive,Fairborn,Greene,Fairborn,-,45324,I-1 and R-1,VACANT,0,8-Sep-09,Vacant
+120,Columbus Coated Fabrics,21.45,Spans four city blocks of North Grant Avenue (1200 to 1400 blocks) and North 6th,Columbus,Franklin,Columbus,OH,43215,"Commercial, Industrial, Residential",VACANT,0,21-Mar-07,Vacant
+121,Hercules Engines,26,101 11th Street SE (a.k.a. 1036 Market Avenue South),Canton,Stark,Canton,OH,447014218,"Commercial/Industrial, Urban",PARTIALLY_OCCUPIED,600000,23-Mar-07,Partially Occupied
+122,Buck Creek Redevelopment Area,4.5188,"220, 236 Cliff Street and 225, 231, 236-250 Cedar Street",Springfield,Clark,Springfield,OH,45502,Hospital Zone,VACANT,23732,17-Sep-08,Vacant
+123,"GNB, Former",4.33,1606 Moxahala Avenue,Zanesville,Muskingum,Zanesville,OH,43701,Industrial,VACANT,62813,2-Jul-09,Vacant
+124,Ironton Iron,24.3,2520 South Third Street,Ironton,Lawrence,Ironton,OH,45638,Industrial,VACANT,41150,29-Mar-07,Vacant
+125,Providence North Parcels,1.75,"317 and 320 Findlay Street; 1654, 1660, 1668, 1672 Central Avenue; and 1663 Cent",Cincinnati,Hamilton,Cincinnati,OH,45202,MG - Manufacturing-General,PARTIALLY_OCCUPIED,34473,4-Aug-08,Partially Occupied
+126,Main and Longview Economic Renewal Project,18.44,500 North Main Street,Mansfield,Richland,Mansfield,OH,44902,Industrial,PARTIALLY_OCCUPIED,200000,24-Nov-08,Partially Occupied
+127,Camp Washington Hamilton County Redevelopment Site,16.86,3241 Spring Grove Avenue,Cincinnati,Hamilton,Cincinnati,OH,45202,MG - Manufacturing General,VACANT,636500,27-Aug-08,Vacant
+128,Textron Inc. and United Brothers of Carpenters and Joiners of America Properties,50.98,474 and 360 South Nelson Avenue,Wilmington,Clinton,Wilmington,OH,45177,"I-1, Industrial",-,245450,5-Jun-09,-
+129,Goodyear Tire and Rubber Archwood Avenue,27.94,1452 and1485 East Archwood Avenue,Akron,Summit,Akron,OH,44308,Commercial/Industrial,-,210400,8-Oct-08,-
+151,Old Hudepohl Brewery,1.614,"805 Central Avenue, Suite 700",Cincinnati,Hamilton,Cincinnati,OH,45203,399 Other Industrial Structures,VACANT,210000,5-Jan-10,Vacant
+171,Brandman/Swale Project,78,330 Cory Street,Findlay,Hancock,Findlay,OH,45840,Commercial/Industrial,PARTIALLY_OCCUPIED,100000,14-Jan-10,Partially Occupied
+231,"Big Bear Store, Former",10,6300 East Livingston Avenue,Reynoldsburg,Franklin,Reynoldsburg,OH,43068,Community Commerce,VACANT,97000,27-Jan-10,Vacant
+259,Concord Foods,6,230 Concord Street and 320 Hopeland Street,Dayton,Montgomery,Dayton,OH,45402,I-1 (light industrial),-,45000,1-Feb-10,-
+291,King Ohio Forge,8.65,820 Steiner Avenue,Kenton,Hardin,Kenton,OH,43326,-,VACANT,0,2-Feb-10,Vacant
+293,McCourt/Shelly And Sands (South) Property,9.27,1506 South State Street,Girard,Trumbull,Youngstown,OH,44503,Commercial Medium Mfg,VACANT,26339,2-Feb-10,Vacant
+297,1550 Grand Boulevard Redevelopment (Former Marcell's),7.033,1550 Grand Boulevard,Hamilton,Butler,Hamilton,OH,45011,"I-2, Heavy Industrial",PARTIALLY_OCCUPIED,262961,2-Feb-10,Partially Occupied
+299,"Kimball Midwest, Former",3,109 North Front Street,Columbus,Franklin,Columbus,OH,43215,Industrial,VACANT,90000,2-Feb-10,Vacant
+301,"Sunar Hauserman Facility, Former",20,6551 Grant Avenue,Cuyahoga Heights,Cuyahoga,Cuyahoga Heights,OH,44125,"General Industry ""B3""; Semi-Industry ""B1""; and Residence Industry ""B2""",PARTIALLY_OCCUPIED,300000,2-Feb-10,Partially Occupied
+303,"Fox River Paper Mill, Former",10.872,700 West Court Street,Urbana,Champaign,Urbana,OH,43078,Industrial,VACANT,176500,2-Feb-10,Vacant
+351,Rable Machine,2,137 Touby Court,Mansfield,Richland,Mansfield,OH,44902,"Commercial, Industrial",VACANT,30750,8-Feb-10,Vacant
+371,"Key Gas Components, Former",1.78,1966 East 66th Street,Cleveland,Cuyahoga,Cleveland,OH,44114,MMUD - Mid-Town Mixed Use District,VACANT,23300,11-Feb-10,Vacant
+391,Miceli-Lograsso Development Company III Expansion,16.78,2734 Tennyson Road,Cleveland,Cuyahoga,Cleveland,OH,44114,General Industry,VACANT,0,12-Feb-10,Vacant
+411,"Weatherbee Coat Factory, Former",2,461 East Federal Street,Youngstown,Mahoning,Youngstown,OH,44503,Commercial,PARTIALLY_OCCUPIED,65086,22-Feb-10,Partially Occupied
+431,Downtown Summit Redevelopment Project,1,"235, 237, 239 North Summit Street; 200 North Saint Clair Street",Toledo,Lucas,Toledo,OH,43604,CD-Downtown Commercial,PARTIALLY_OCCUPIED,36500,17-Mar-10,Partially Occupied
+451,"Con Agra Facility, Former",11.4,41 East Cleveland Road,Huron,Erie,Huron,OH,44830,"I-1, General Industrial",VACANT,0,19-Mar-10,Vacant
+453,Imperial Electric,1,84 Ira Avenue,Akron,Summit,Akron,OH,44308,Industrial,VACANT,0,19-Mar-10,Vacant
+455,"XXth Century Heating, Former",6.74,1250 Edison Avenue,Akron,Summit,Akron,OH,44308,Industrial,VACANT,0,19-Mar-10,Vacant
+471,"GE Electromaterials, Former",80,1350 South Second Street,Coshocton,Coshocton,Coshocton,OH,43812,Industrial,VACANT,2400,24-Mar-10,Vacant
+491,Ametek Industrial Products,14.01,627 Lake Street,Kent,Portage,Kent,OH,44240,-,PARTIALLY_OCCUPIED,1000,25-Mar-10,Partially Occupied
+511,"Rosenblatt Steel, Former",5.2,322 Miami Street,Tiffin,Seneca,Tiffin,OH,44883,M2 - Industrial and R3 - Residential,VACANT,112000,31-Mar-10,Vacant
+531,Piqua Memorial Hospital,6,624 Park Avenue and 813 Nicklin Avenue,Piqua,Miami,Piqua,OH,45356,R-3 Milti-family Residential,VACANT,7200,7-Apr-10,Vacant
+551,Portage Trail Property,0.66,1110-1130 Portage Trail,Cuyahoga Falls,Summit,Cuyahoga Falls,OH,44221,MU-4 (Mixed Use),VACANT,0,12-Apr-10,Vacant
+571,Anaconda Road Property,14.54,114 Anaconda Road,Akron,Summit,Akron,OH,44308,Heavy Industrial,PARTIALLY_OCCUPIED,9926,13-Apr-10,Partially Occupied
+591,"YS&T Solid Tube Works, Former (aka Sherman International)",37,Wilson Avenue,Campbell,Mahoning,Campbell,OH,44405,-,VACANT,0,27-Apr-10,Vacant
+611,St. Vincent Charity Medical Center,2,2351 East 22nd Street,Cleveland,Cuyahoga,Cleveland,OH,44115,Commercial/Institutional,VACANT,0,12-May-10,Vacant
+631,"CSX Rail Depot, Former",12,483 East Main Street,Chillicothe,Ross,Chillicothe,OH,45601,-,VACANT,5000,14-May-10,Vacant
+651,"H.P.M. Plant No. 1, Former",7,374 Lincoln Avenue,Mt. Gilead,Morrow,Mt. Gilead,OH,43338,-,PARTIALLY_OCCUPIED,0,17-May-10,Partially Occupied
+671,Kingsdale Redevelopment,6,1760/1800 Zollinger Road,Upper Arlington,Franklin,Upper Arlington,OH,43221,PMUD,VACANT,84000,20-May-10,Vacant
+691,"Federal Reserve, Former",0.286,105 West Fourth Street,Cincinnati,Hamilton,Cincinnati,OH,45202,DD -- Downtown Development,PARTIALLY_OCCUPIED,191547,2-Jun-10,Partially Occupied
+751,"Chardon Rubber, Former",11,373 Washington Street,Chardon,Geauga,Chardon,OH,44024,-,PARTIALLY_OCCUPIED,209000,8-Jun-10,Partially Occupied
+791,Caldwell Street Project (Former Frank Z Chevrolet Property),4.379,1600 and 1620 Brown Street,Dayton,Montgomery,Dayton,OH,454021814,Industrial,PARTIALLY_OCCUPIED,0,14-Jun-10,Partially Occupied
+811,Smith Middle School,4,345 Arch Street,Chillicothe,Ross,Chillicothe,OH,45601,-,VACANT,38000,15-Jun-10,Vacant
+851,Stearns and Foster Mattress Factory,5.955,238 East Shepherd Street,Lockland,Hamilton,Lockland,OH,45215,Commercial,ORPHANED,0,29-Jun-10,Orphaned/Abandoned
+871,"Hoover and Allison Cordage Company, Former",21,677 Cincinnati Avenue,Xenia,Greene,Xenia,OH,453852935,I-2 Heavy Industrial,VACANT,102000,7-Jul-10,Vacant
+873,"ODOT District 11, Former",7.84,1072 West High Avenue,New Philadelphia,Tuscarawas,Dover,OH,44622,Business,VACANT,0,7-Jul-10,Vacant
+891,Erie Street Redevelopment Project,3.62,371/367 and 329 South Erie Street (43624) and 201/202 South Erie Street (43604),Toledo,Lucas,Toledo,OH,43604,Limited Industrial,VACANT,0,9-Jul-10,Vacant
+893,"Howard Paper, Former",4.4,345 South Edwin C. Moses Boulevard,Dayton,Montgomery,Dayton,OH,454010022,Commercial,VACANT,0,9-Jul-10,Vacant
+911,"Norco Property, Former",3.2787,4953 Section Avenue,Norwood,Hamilton,Norwood,OH,45212,M2-PUD,VACANT,61262,12-Jul-10,Vacant
+933,"RTI Coke Works, Former",27,3000 East 28th Street,Lorain,Lorain,Lorain,OH,44052,-,VACANT,0,13-Jul-10,Vacant
+935,"Demsey Steel, Former",14.75,1300 South State Street,Youngstown,Trumbull,Youngstown,OH,44503,-,VACANT,68000,13-Jul-10,Vacant
+953,"Estate Stove Property, Former",5.2,845 East Avenue,Hamilton,Butler,Hamilton,OH,45011,"I-2, Industrial District",PARTIALLY_OCCUPIED,78720,15-Jul-10,Partially Occupied
+971,Canal Place Limited South End Redevelopment,14,520 South Main Street,Akron,Summit,Akron,OH,44308,URD-R89,PARTIALLY_OCCUPIED,1100000,22-Jul-10,Partially Occupied
+1011,"Trinity Difco, Former",18,1501 North Main Street,Findlay,Hancock,Findlay,OH,45840,Light/General Industrial,PARTIALLY_OCCUPIED,0,30-Jul-10,Partially Occupied
+1013,Painesville Hotel,1.6,257 East Main Street,Painesville,Lake,Painesville,OH,44077,"B-2, General Business",ORPHANED,65334,30-Jul-10,Orphaned/Abandoned
+1033,Newark Processing Site,65.51,1367 East Main Street,Newark,Licking,Newark,OH,43055,General Industrial,VACANT,0,12-Aug-10,Vacant
+1071,Mendelson Storage Building,0.8752,329 East First Street,Dayton,Montgomery,Dayton,OH,454021814,Urban Business District,PARTIALLY_OCCUPIED,214620,26-Aug-10,Partially Occupied
+1073,American Can Building,2,4101 Spring Grove Avenue,Cincinnati,Hamilton,Cincinnati,OH,45202,Planned Development District No. 47,VACANT,180000,26-Aug-10,Vacant
+1091,"Oil and Battery, Former",0.9,125 and 127 East 2nd Street,Chillicothe,Ross,Chillicothe,OH,45601,-,VACANT,0,14-Sep-10,Vacant
+1111,Old Akron Technical Center Facility,33,1200 Firestone Parkway,Akron,Summit,Akron,OH,44308,U-5 Ordinary Industry,PARTIALLY_OCCUPIED,720000,15-Sep-10,Partially Occupied
+1131,"Frames Market, Former",1,3839 State Route 93 NE,Crooksville,Perry,New Lexington,OH,43764,-,VACANT,25000,16-Sep-10,Vacant
+1151,Blue Creek Conservation Area,152,10707 Neopolis / Waterville Road,Whitehouse,Lucas,Maumee,OH,43537,Sub. Residential,PARTIALLY_OCCUPIED,40468,28-Sep-10,Partially Occupied
+1171,Proposed VA Outpatient Clinic,10,"1045 and 1065 Research Drive, and 1200 South Detroit Avenue",Toledo,Lucas,Toledo,OH,43604,Planned Business/Industrial Park,VACANT,0,29-Sep-10,Vacant
+1191,Fortuna-Cleveland Expansion,10.79,"2525 Rockefeller Avenue, 2727 and 2655 Transport Road",Cleveland,Cuyahoga,Cleveland,OH,44114,Un-restricted Industrial,PARTIALLY_OCCUPIED,23766,1-Oct-10,Partially Occupied
+1211,"J&L Lagoons, Former",209.58,1500 West Main Street,Louisville,Stark,Louisville,OH,44641,I2,VACANT,0,21-Oct-10,Vacant
+1231,COTA Fields Avenue Facility,10.684,1333 Fields Avenue,Columbus,Franklin,Columbus,OH,43215,M - Manufacturing,PARTIALLY_OCCUPIED,273130,15-Nov-10,Partially Occupied
+1251,"Delphi Automotive Plant, Former",121.633,200 Georgesville Road,Franklin Township,Franklin,Columbus,OH,43215,Industrial,VACANT,0,29-Nov-10,Vacant
+1271,Liberty-Paramount Theater,0.2,138 West Federal Street,Youngstown,Mahoning,Youngstown,OH,44503,-,VACANT,15787,1-Dec-10,Vacant
+1291,Jeep Parkway,111,1000 Jeep Parkway,Toledo,Lucas,Toledo,OH,43604,Industrial,ORPHANED,0,6-Dec-10,Orphaned/Abandoned
+1293,Warner and Swasey,3.1099,5701 Carnegie Avenue,Cleveland,Cuyahoga,Cleveland,OH,44114,Mid-Town Mixed Use,VACANT,180000,6-Dec-10,Vacant
+1311,"Lancaster Glass Site, Former",2.6,240 West Main Street,Lancaster,Fairfield,Columbus,OH,43215,Industrial/Manufacturing,VACANT,0,10-Dec-10,Vacant
+1331,"West Side Chevrolet, Former",1.14,"718, 800 West Third Street",Dayton,Montgomery,Dayton,OH,45402,Mature Neighborhood Commercial District,VACANT,50540,15-Dec-10,Vacant
+1351,Lake Link Trail,2.724,00000 Mulberry Street,Cleveland,Cuyahoga,Cleveland,OH,44115,General Industry,VACANT,0,23-Dec-10,Vacant
+1353,"Walker National, Former",2.39,811 Kinnear Road,Columbus,Franklin,Columbus,OH,43085,LI - Limited Industrial,VACANT,38555,23-Dec-10,Vacant
+1373,John Hartness Brown Building,1.21,"1001,1007,1015, 1021 and 1101 Euclid Avenue",Cleveland,Cuyahoga,Cleveland,OH,44114,GR-E5 (General Retail),VACANT,52696,5-Jan-11,Vacant
+1375,Seiberling Redevelopment Project,30,345 15th St. NW,Barberton,Summit,Barberton,OH,44203,Industrial,VACANT,1170000,5-Jan-11,Vacant
+1391,"Doehler Jarvis Plant 2, Former",49,5400 North Detroit Avenue,Toledo,Lucas,Toledo,OH,43604,Industrial,PARTIALLY_OCCUPIED,711000,6-Jan-11,Partially Occupied
+1395,"Wonder Bread Bakery, Former",4.3,642 Richmond Street,Cincinnati,Hamilton,Cincinnati,OH,45202,-,PARTIALLY_OCCUPIED,79176,6-Jan-11,Partially Occupied
+1411,"Hexion Specialty Chemicals, Former",13.973,630 Glendale-Milford Road,Woodlawn,Hamilton,Woodlawn,OH,45215,-,PARTIALLY_OCCUPIED,112703,7-Jan-11,Partially Occupied
+1413,St. Joseph Community Center,5.5,205 West 20th Street (and adjacent properties),Lorain,Lorain,Richfield,OH,44286,"B-1, General Business",PARTIALLY_OCCUPIED,182174,7-Jan-11,Partially Occupied
+1415,Oakley North Redevelopment,65,4701 Marburg Avenue,Cincinnati,Hamilton,Miamisburg,OH,45342,PD,VACANT,0,7-Jan-11,Vacant
+1431,Madison Building,0.45,607 Madison Avenue,Toledo,Lucas,Toledo,OH,43604,-,PARTIALLY_OCCUPIED,75654,14-Feb-11,Partially Occupied
+1451,Superior Cement Company,50.738,490 County Road 41 South,Pedro,Lawrence,Ironton,OH,45638,Industrial,VACANT,0,28-Feb-11,Vacant
+1471,"Steel Ceilings Property, Former",15.8,500 North Third Street,Coshocton,Coshocton,Coshocton,OH,43812,M-1 (Light Manufacturing),VACANT,83066,10-Mar-11,Vacant
+1491,"Davidson Metals, Former",8,1630 Wilson Avenue,Youngstown,Mahoning,Youngstown,OH,44503,-,VACANT,1616,6-Apr-11,Vacant
+1511,"Richland Moulded Brick Facility, Former",145,1000 Richland Shale Road,"Franklin and Weller Townships, City of Mansfield",Richland,Mansfield,OH,44902,Industrial,VACANT,56000,7-Apr-11,Vacant
+1531,Forest Park Plaza,45.502,4360 North Main Street,Dayton,Montgomery,Dayton,OH,45414,Commercial,PARTIALLY_OCCUPIED,113200,14-Apr-11,Partially Occupied
+1533,"Q3/Johnson Manufactured Properties, Former",19.999,605 Miami Street,Urbana,Champaign,Urbana,OH,43078,Light Industrial,VACANT,108325,14-Apr-11,Vacant
+1551,"OVCH Facility, Former",78.55,690 Home Avenue,Xenia,Greene,Xenia,OH,45385,PUD - Mixed Use,PARTIALLY_OCCUPIED,100000,19-Apr-11,Partially Occupied
+1571,Emerald Alliance VII,0.5528,9431 Lorain Avenue and 3147 West 95th Street,Cleveland,Cuyahoga,Cleveland,OH,44114,-,VACANT,47500,21-Apr-11,Vacant
+1591,Kolthoff Road Landfill,100,00000 Grayton Road and IX Center Drive,Cleveland,Cuyahoga,Cleveland,OH,44114,"GI-B3, General Industry",VACANT,0,3-May-11,Vacant
+1621,"Starfire Express, Former",0.766,471 North Ewing Street,Lancaster,Fairfield,Lancaster,OH,43130,General Commercial,VACANT,0,25-May-11,Vacant
+1623,"American Carco, Former",1.8,2800 Ontario Avenue,Dayton,Montgomery,Dayton,OH,45414,Manufacturing and Light Assembly,ORPHANED,0,25-May-11,Orphaned/Abandoned
+1631,Centre City Building,0.532,36 South Main Street,Dayton,Montgomery,Powel,OH,43065,CBD,PARTIALLY_OCCUPIED,282728,9-Jun-11,Partially Occupied
+1633,"Miami Packaging, Former",9.8,1701 Reinartz Avenue,Middletown,Butler,Middletown,OH,45042,Commercial,PARTIALLY_OCCUPIED,152460,9-Jun-11,Partially Occupied
+1651,Milacron Plant 5,16.31,3025 Disney Street,Cincinnati,Hamilton,Miamisburg,OH,45342,PD,VACANT,220000,14-Jun-11,Vacant
+1693,"YS&T Seamless Tube Mill, Former (Sherman International)",71.04,2.293 feet SE of Central Street,Youngstown,Mahoning,Youngstown,OH,44503,Industrial,VACANT,0,22-Jun-11,Vacant
+1713,"Timken Site, Former",31,1047 Cleveland Avenue,Columbus,Franklin,Columbus,OH,43215,Manufacturing,VACANT,3000,24-Jun-11,Vacant
+1735,Atlas Building,0.334,8 East Long Street,Columbus,Franklin,Columbus,OH,43215,Downtown District,PARTIALLY_OCCUPIED,123625,27-Jun-11,Partially Occupied
+1753,800 Mogadore Road,17.7,800 Mogadore Road,Kent,Portage,Kent,OH,44240,Industrial,VACANT,0,29-Jun-11,Vacant
+1775,5th Avenue Lumber,2.54,479 East Fifth Avenue,Columbus,Franklin,Columbus,OH,43215,Manufacturing,FULLY_OCCUPIED,45000,6-Jul-11,Fully Occupied
+1793,Viking Hall Block Property,1.735,2112-2130 Euclid Avenue,Cleveland,Cuyahoga,Cleveland,OH,44115,GR-E5,VACANT,212016,8-Jul-11,Vacant
+1813,Plabell Rubber Company Property Development,3.8,300 South St. Clair (primary),Toledo,Lucas,Toledo,OH,43604,COMwarehse,VACANT,0,11-Jul-11,Vacant
+1815,"Apex Manufacturing, Former",13.7531,1643 First Street,Sandusky,Erie,Sandusky,OH,44870,General Manufacturing/Commercial Recreational,VACANT,0,11-Jul-11,Vacant
+1817,Samuel Adams Brewery - Calmego West Expansion,0.369,"411, 419, 421 Poplar Street and 424, 426 Oliver Street",Cincinnati,Hamilton,Cincinnati,OH,45202,330-Medium Manufacturing and Assembly and 400-Commercial Vacant Land,PARTIALLY_OCCUPIED,12000,11-Jul-11,Partially Occupied
+1819,Lick Run Green Infrastructure,3.881,2121 State Avenue,Cincinnati,Hamilton,Cincinnati,OH,45204,Manufacturing,PARTIALLY_OCCUPIED,15000,11-Jul-11,Partially Occupied
+1823,UpTown Signature Park,2.42,311 18th Street and others,Toledo,Lucas,Toledo,OH,43604,-,VACANT,26800,11-Jul-11,Vacant
+1833,Printing Services Company / Goodwill Easter Seals,6.167,652 South Main Street,Dayton,Montgomery,Dayton,OH,45404,MGC - Mature General,PARTIALLY_OCCUPIED,0,12-Jul-11,Partially Occupied
+1853,"Mithoff Hotel, Former",0.3468,162-168 West Main Street,Lancaster,Fairfield,Lancaster,OH,43130,Central Business District,VACANT,0,28-Jul-11,Vacant
+1873,"Republic Steel/Current BRT Extrusions, Former",28,1818 North Main Street,Niles,Trumbull,Niles,OH,44446,-,PARTIALLY_OCCUPIED,262000,30-Aug-11,Partially Occupied
+1893,"Smith and Nixon Manufacturing Facility, Former",4.16,4817 Section Avenue,Norwood,Hamilton,Norwood,OH,45212,M2,VACANT,0,26-Sep-11,Vacant
+1913,"US Steel, Former",67,100 Ohio Avenue,McDonald,Trumbull,McDonald,OH,44437,Industrial,VACANT,0,28-Sep-11,Vacant
+1933,"Fairfield Engineering, Former",7.99,342 Barnhart Street,Marion,Marion,Marion,OH,43302,Industrial,VACANT,75000,18-Oct-11,Vacant
+1953,"Kaul Clay, Former",42.986,State Route 7 and County Road 47,Toronto,Jefferson,Steubenville,OH,43952,-,VACANT,0,3-Nov-11,Vacant
+1955,Bucyrus Community Theatre,0.24,300-306 South Sandusky Street,Bucyrus,Crawford,Bucyrus,OH,44820,-,VACANT,11682,3-Nov-11,Vacant
+1973,"Zeller Property, Former",3.33,1307 Baltimore,Defiance,Defiance,Defiance,OH,43512,M-3 - General Industrial,VACANT,0,8-Nov-11,Vacant
+1993,"Mighty Moe's/Rayen Building, Former",0.56,315 Elm Street / 158 West Rayen Avenue,Youngstown,Mahoning,Youngstown,OH,44503,Business (Commercial),VACANT,3640,30-Nov-11,Vacant
+2013,Field of Hope Community Campus,47,11821 State Route 160,Vinton,Gallia,Vinton,OH,45686,None,PARTIALLY_OCCUPIED,32532,1-Dec-11,Partially Occupied
+2053,"Volcanic Heater, Inc.",2.727,201 Hartzell Street,Alliance,Stark,Alliance,OH,44601,-,VACANT,17700,14-Dec-11,Vacant
+2055,Stewart Brothers Paint Company,3.81,1010 and 1042 North Union Avenue,Alliance,Stark,Alliance,OH,44601,-,VACANT,32849,14-Dec-11,Vacant
+2057,"Fraser Paper, Former",16,51 South Elm Street,West Carrollton,Montgomery,West Carrollton,OH,45449,Planned Unit Development,VACANT,5800,14-Dec-11,Vacant
+2059,CornerStone Business Park at the Former Twinsburg Stamping Plant,167.52,2000 East Aurora Road,Twinsburg,Summit,Indianapolis,IN,46240,I-3 Heavy Industrial,-,800000,14-Dec-11,-
+2073,"Smith Brothers Cleaners & Retail Facility, Former",1.46,701-721 East 185th Street,Cleveland,Cuyahoga,Cleveland,OH,44114,"LR, Local Retail",VACANT,12000,16-Dec-11,Vacant
+2093,"Sandusky Cabinets, Inc., Former",1.7,513 East Washington Street,Sandusky,Erie,Sandusky,OH,44870,CS: Commercial Service,VACANT,46500,22-Dec-11,Vacant
+2095,BSL Holdings Property,11.523,1517-1617 Fifth Street,Sandusky,Erie,Sandusky,OH,44870,Commercial Service & General Manufacturing,PARTIALLY_OCCUPIED,35000,22-Dec-11,Partially Occupied
+2097,"Zeller II Property, Former",2.37,1357 Baltimore,Defiance,Defiance,Defiance,OH,43512,M-3 - General Industrial,PARTIALLY_OCCUPIED,46850,22-Dec-11,Partially Occupied
+2113,Scranton Road Property,5,2151 Scranton Road,Cleveland,Cuyahoga,Cleveland,OH,44114,General Industry,VACANT,187000,3-Jan-12,Vacant
+2133,Schwebel Flex Industrial/Technology Brownfield Redevelopment Site,12.8,"1950 Newberry Avenue (02-18449), 310 Tallmadge Road (02-19506), and 406 Tallmadge Road (02-18447)",Cuyahoga Falls,Summit,Cuyahoga Falls,OH,44221,E-1 Employment District,PARTIALLY_OCCUPIED,100000,4-Jan-12,Partially Occupied
+2153,"Orlando Baking Company, former Van Dorn Buildings",2.7,2700 East 79th Street,Cleveland,Cuyahoga,Cleveland,OH,44114,General Industry,PARTIALLY_OCCUPIED,114058,5-Jan-12,Partially Occupied
+2177,"NorthTowne Square Mall, Former",69.28,"301 New Towne Square Dr, 343 New Town Square, 5901 Skyview Dr, 501 New Towne Sq, 220 Mel Simon Dr",Toledo,Lucas,Toledo,OH,43604,IL: Limited Industrial District; CR-SO: Regional Commercial District,VACANT,-,9-Jan-12,Vacant
+2193,"Springfield Landfill, Former",39.17,South Limestone Street,Springfield,Clark,Springfield,OH,45506,-,VACANT,0,11-Jan-12,Vacant
+2213,Dayton Aviation Heritage Redevelopment Project,55,2701 Home Avenue,Dayton,Montgomery,Dublin,OH,43016,I-2 - General Industrial,VACANT,1460000,12-Jan-12,Vacant
+2233,"Dublin Road Landfill, Former/Grandview Crossing",36,Located off the northeast corner of Dublin Road and Grandview Avenue,Columbus/Grandview Heights,Franklin,Columbus,OH,43215,Manufacturing,VACANT,0,13-Jan-12,Vacant
+2235,"Univar USA Inc., fka Van Waters and Rogers Site",3.08,4582 Willow Parkway,Cuyahoga Heights,Cuyahoga,Cuyahoga Heights,OH,44125,Industrial,PARTIALLY_OCCUPIED,30000,13-Jan-12,Partially Occupied
+2239,"Nursing Home, Former",0.53,1336 Maryland Avenue,Steubenville,Jefferson,Steubenville,OH,43952,"R-2, Medium Density",VACANT,12000,13-Jan-12,Vacant
+2241,Grand Theater,0.25,"115, 121 and 123 South Fourth Street",Steubenville,Jefferson,Steubenville,OH,43952,"B-1, Central Business",PARTIALLY_OCCUPIED,10380,13-Jan-12,Partially Occupied
+2253,"Thyssenkrupp Crankshaft, Former",47.381,901 US Highway 23 (Springfield Avenue),Fostoria,Seneca,Fostoria,OH,44830,M-2 General Industrial,VACANT,360000,17-Jan-12,Vacant
+2255,Advance Technology Corporation and Tackle Hill LLC,12.91,193 North Cedar,Geneva,Ashtabula,Geneva,OH,44041,Industrial,VACANT,0,17-Jan-12,Vacant
+2257,"American National Can, Former",44.178,201 Madison Street,Mount Vernon,Knox,Mount Vernon,OH,43050,-,VACANT,0,17-Jan-12,Vacant
+2273,"Standard Carbon, Former",5.127,130 Warren Lane,Wintersville,Jefferson,Steubenville,OH,43952,Industrial,PARTIALLY_OCCUPIED,14835,18-Jan-12,Partially Occupied
+2293,Elk River,31.98,6690 US 52,Ripley,Brown,Ripley,OH,45167,111,PARTIALLY_OCCUPIED,-,1-Feb-12,Partially Occupied
+2313,Masters Tuxedo,1.51,3600 Market Street,Youngstown,Mahoning,Youngstown,OH,44503,B-2 General Business,ORPHANED,23690,29-Feb-12,Orphaned/Abandoned
+2315,"Gas Station, Former",0.71,2978 McGuffey,Youngstown,Mahoning,Youngstown,OH,44503,B-3 Community Business,ORPHANED,6000,29-Feb-12,Orphaned/Abandoned
+2353,Former Parker's Marathon,0.325,18 West Waterloo Street,Canal Winchester,Franklin,Columbus,OH,43206,General Commercial District,VACANT,0,23-Apr-13,Vacant
+2395,Weber Dental Manufacturing Co. (Former),7,2206 13th St. NE,Canton,Stark,Canton,OH,44702,I-2 Heavy Industrial,ORPHANED,0,1-May-13,Orphaned/Abandoned
+2413,Ohio Cast Products,11.3,2408 13th Street NE,Canton,Stark,Canton,OH,44702,I-2 heavy industrial,ORPHANED,44000,29-Aug-13,Orphaned/Abandoned
+2433,RGS Automotive,0.5,122 North Meridian,Ravenna,OH,Ravenna,OH,44266,Central Business Unit,VACANT,5944,13-Dec-13,Vacant
+2453,Higginsport School,1.25,306 Jackson St,Higginsport,Brown,Higginsport,OH,45131,No Zoning in Village,VACANT,18000,6-Feb-14,Vacant
+2473,Former Smith & Cowan,2.5,127 Pittsburg St,Ravenna,Portage,Ravenna,OH,44266,Industrial,ORPHANED,2000,28-Apr-14,Orphaned/Abandoned
+2492,Estate of Betty Van Winkle,3.144,5704 SR 73 West,Wilmington,Clinton,Wilmington,OH,45177,Residential,FULLY_OCCUPIED,3402,3-Oct-16,Fully Occupied
+2493,Cordray Holdings LLC,1.255,754 Berdan Ave,Toledo,Lucas,Toledo,OH,43604,Limited Industrial,PARTIALLY_OCCUPIED,31316,3-Oct-16,Partially Occupied
+2512,Former Leatherworks,26.06,1052 N State St,Girard,Trumbull,Girard,OH,44420,Industrial,ORPHANED,-,4-Oct-16,Orphaned/Abandoned
+2513,Former Valvoline,0.274,2290 Losantiville,Golf Manor,Hamilton,Golf Manor,OH,45237,Commercial,VACANT,0,4-Oct-16,Vacant
+2514,Hunter's Garage,0.15,16 Main St,Chauncey,Athens,Chauncey,OH,45719,N/A,VACANT,6455.22 sq ft,4-Oct-16,Vacant
+2515,Lucas County Facility Services Building,2.714,761 Berdan Ave,Toledo,Lucas,Toledo,OH,43604,General Industrial,PARTIALLY_OCCUPIED,111559 sq ft,4-Oct-16,Partially Occupied
+2516,Former Municipal Court Building,0.1234,134 Southgate Parkway,Cambridge,Guernsey,Cambridge,OH,43725,Commercial,VACANT,5384 sq ft,4-Oct-16,Vacant
+2517,TDC,1.554,3339 N Dixie Dr,Dayton,Montgomery,Dayton,OH,45414,B-4,VACANT,24000 sp ft,4-Oct-16,Vacant
+2518,CitGo Gas Station,0.54,604 S Washington St,Castalia,Erie,Castalia,OH,44824,Commercial,ORPHANED,1836 sq ft,4-Oct-16,Orphaned/Abandoned
+2519,Old Clark Gas Station/Millennium Property,0.33,1100 Mt Vernon Road,Newark,Licking,Newark,OH,43055,General Commercial,ORPHANED,-,4-Oct-16,Orphaned/Abandoned
+2520,Fulper Auto Parts,0.51,5599 Liberty Ave,Vermilion,Erie,Vermilion,OH,44089,Commercial,VACANT,-,5-Oct-16,Vacant
+2521,Miller Property,0.32,3 W Market St,Marshallville,Wayne,Marshallville,OH,44645,Commercial,VACANT,-,5-Oct-16,Vacant
+2532,Sinclair Gas Station,0.298,800 Wyoming Ave,Lockland,Hamilton,Lockland,OH,45215,C-2 Central Commercial District,VACANT,0,6-Oct-16,Vacant
+2533,Swims Grocery,0.298,5516 Norton Road,Grove City,Franklin,Grove City,OH,43123,Rural,VACANT,-,6-Oct-16,Vacant
+2534,Windham Alloys,14.94,9215 State Route 303,Windham Township,67,Windham,OH,44288,Commercial/Industrial,VACANT,15000,6-Oct-16,Vacant
+2552,Meridian Automotive,52.668,1020 East Main St,Jackson,Jackson,Jackson,OH,45640,Industrial,PARTIALLY_OCCUPIED,60000,7-Oct-16,Partially Occupied
+2572,Former Champion (Smart) Paper,45,601 North B Street,Hamilton,Bulter,Hamilton,OH,45011,Industrial I-2,VACANT,"1,345,000 sq ft",21-Nov-16,Vacant
+2612,Nickels Gulf Station,0.97,3299 Port Clinton Rd,Fremont,Sandusky,Fremont,OH,43420,Commercial,VACANT,1260 sq ft,29-Sep-17,Vacant
+2613,Keystone Gas Station,0.0424,308 S Third Ave,Middleport,Meigs,Middleport,OH,45760,Commercial,PARTIALLY_OCCUPIED,-,29-Sep-17,Partially Occupied
+2614,Jim's Union 76,0.4886,104 S Main St,Hollansburg,Darke,Hollansburg,OH,45332,Commercial,VACANT,-,29-Sep-17,Vacant
+2615,Aberdeen Middle and High School,0.5,99 Main Cross St,Aberdeen,Brown,Aberdeen,OH,45101,-,PARTIALLY_OCCUPIED,-,29-Sep-17,Partially Occupied
+2616,Stearns and Foster - Western Portion,4.89,NW Intersection of Shepherd Ave and Wyoming Ave,Lockland,Hamilton,Cincinnati,OH,45212,Light Industrial,VACANT,8000 sq ft,29-Sep-17,Vacant
+2617,Former Gas Station,0.4,600 W Main St,Van Wert,Van Wert,Van Wert,OH,45891,Commercial,FULLY_OCCUPIED,1247 sq ft,29-Sep-17,Fully Occupied
+2618,N Dixie Dr Commercial Building,0.3254,6239 N Dixie Dr,Dayton,Montgomery,Dayton,OH,45414,Commercial,VACANT,-,18-Dec-17,Vacant
+2619,Farm Service Center,5.17,614 N Broadway,Spencerville,Allen,Spencerville,OH,45887,M1 and M-2,VACANT,-,18-Dec-17,Vacant
+2620,Premier Cleaners,0.2,201 Cleveland Ave NW,Canton,Stark,Canton,OH,44702,-,VACANT,6140 sq ft,18-Dec-17,Vacant
+2632,Cookson Pottery,0.82,48 Potters Lane,Roseveille,Muskingum,Roseville,OH,43777,None,VACANT,0,28-Sep-18,Vacant
+2633,Benson Gas Station,0.56,112 E Main St,Geneva,Ashtabula,Jefferson,OH,44047,-,VACANT,-,28-Sep-18,Vacant
+2652,Pump House,5.59,425 Orange St,Ashland,Ashland,Ashland,OH,44805,Industrial,PARTIALLY_OCCUPIED,-,31-Dec-19,Partially Occupied
+2653,St. Paris Junior High,7,370 E Main St,St. Paris,Champaign,St Paris,OH,43072,R-1,VACANT,-,31-Dec-19,Vacant
+2654,Skips Gas Station,1.2898,1835 Park Ave W.,Mansfield,Richland,Sunbury,OH,43074,Commercial,VACANT,-,31-Dec-19,Vacant
+2655,St. Roberts Redevelopment Project,0.125,23750 Lakeshore Blvd,Euclid,Cuyahoga,Euclid,OH,44123,Campus Institutional,VACANT,0,31-Dec-19,Vacant
+2672,Delmer Hicks Bi-Lo Bulk Twin Valley,0.79,2889 State Route 139,Twin Valley,Scioto,Portsmouth,OH,45662,Commercial,VACANT,3200 sq. ft.,22-Jul-21,Vacant
+2692,"Metaldyne Driveline/ Lester Precision Die Casting, LLC",3,25661 Cannon Road,Bedford Heights,Cuyahoga,Bedford Heights,OH,44146,Industrial,ORPHANED,0,26-Jul-21,Orphaned/Abandoned
+2712,UMWA UNION HALL,0.078,3201 GUERNSEY STREET,BELLAIRE,Belmont,Bellaire,OH,43906,Commercial,VACANT,2577,27-Jul-21,Vacant
+2732,Corner Restaurant,0.0424,308 S 3rd Ave.,Middleport,Meigs,Columbus,OH,43212,Commercial,-,n/a,10-Aug-21,-
+2752,Former CSX Transportation,3.31,Between 26th street and 32nd streets,Bellaire,Belmont,Bellaire,OH,43906,Industrial,VACANT,n/a,8-Sep-21,Vacant
+2772,Big Boy Restaurant,1.894,804 & 820 Front Street,Berea,Cuyahoga,Berea,OH,44017,Commercial/Retail,VACANT,3920sq feet,10-Sep-21,Vacant
+2773,Brickyard Property,208,239 Seville Road,Wadsworth,Medina,120 Maple Street,OH,44281,Industrial,PARTIALLY_OCCUPIED,n/a,10-Sep-21,Partially Occupied
+2793,Buster Bi-Lo 19,1.14,14314 N US 23,Waverly,Pike,Waverly,OH,45690,Commercial,VACANT,3200,16-Mar-22,Vacant
+2812,Buster Bi-Lo 31,0.0671,0 State & Bridge Street,Jackson,Jackson,Jackson,OH,45640,Commercial,VACANT,1300,21-Mar-22,Vacant
+2832,Sinclair Gas Station,0.363,875 S. Clinton Street,Defiance,Defiance,Defiance,OH,43512,commercial,VACANT,-,3-Aug-22,Vacant
+2833,Ricer Gas Station,0.45,258 Beaver Pike,Waverly,Pike,Waverly,OH,45690,commercial,VACANT,5565 sq ft,3-Aug-22,Vacant
+2852,Miracle Lane,6.294,3100 Salem Ave,Dayton,Montgomery,Dayton,OH,45402,EG Commercial,VACANT,-,13-Dec-22,Vacant
+2853,Former Ohio Oil Company,0.2621,802 Lagrange St,Toledo,Lucas,Toledo,OH,43604,commercial,-,600,-,-
+2872,Glass City Industrial Park,90,2522 Champlain ST,Toledo,Lucas,Toledo,OH,43604,10-IG Industrial,VACANT,-,9-Jan-23,Vacant
+2892,Ducky's Remediation Project,0.093,100 W. Market St,Troy,Miami,Troy,OH,45373,B-2 General Business District,-,0,4-Apr-23,-
