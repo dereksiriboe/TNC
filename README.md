@@ -1,10 +1,31 @@
 # TNC
 
 
+Collaborators+ Contact person : 
+
+Noor Ashrifeh 
+Majors: Economics, Data Analysts (Economics)
+Contact information: (203)-820-0488 (phone)
+Email: ashrif_n1@denison.edu
+
+Derek Siriboe 
+Majors: Economics, Data Analytics (Economics)
+Contact information: +1 (937) 993-1883
+Email: siriboe_d1@denison.edu 
+
+Khoa Trinh 
+Majors: Computer Science, Data Analysts (Biology)
+Contact information: (740)-915-2197 (phone)
+Email: trinh_k1@denison.edu
+
+Kazi Nafis 
+Majors: Financial Economics, Data Analytics (Economics)
+Contact information: (740)-281-9311 (phone)
+Email: nafis_k1@denison.edu 
 
 
 
-#Ethical Considerations
+Ethical Considerations
 
 All data and results should be securely stored and not shared outside of the
 project participants.
@@ -27,7 +48,7 @@ made.
 
 
 
-#References
+References
 
 U.S. Census Bureau. (2023). Explore Census Data. Retrieved March 10, 2023, from Census.gov website: https://data.census.gov/
 
