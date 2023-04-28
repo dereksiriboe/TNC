@@ -4,7 +4,7 @@
 
 
 
-Ethical Considerations
+#Ethical Considerations
 
 All data and results should be securely stored and not shared outside of the
 project participants.
@@ -27,7 +27,7 @@ made.
 
 
 
-References
+#References
 
 U.S. Census Bureau. (2023). Explore Census Data. Retrieved March 10, 2023, from Census.gov website: https://data.census.gov/
 
