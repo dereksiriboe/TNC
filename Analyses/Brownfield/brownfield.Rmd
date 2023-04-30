@@ -1,0 +1,104 @@
+---
+title: "newoverlayplot"
+author: "Derek"
+date: "2023-04-05"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+# Load required libraries
+library(sf)
+library(rgdal)
+library(raster)
+library(ggplot2)
+library(maps)
+library(maptools)
+```
+
+```{r}
+library(sp)
+getLabelPoint <- # Returns a county-named list of label points
+function(county) {Polygon(county[c('long', 'lat')])@labpt}
+centroids = by(oh, oh$county, getLabelPoint) # Returns list
+centroids2 <- do.call("rbind.data.frame", centroids) # Convert to Data Frame
+centroids2$county = rownames(centroids)
+names(centroids2) <- c('clong', 'clat', "county") # Appropriate Header
+ggplot() + 
+  geom_polygon(
+    data = oh, 
+    aes(
+      x = long, 
+      y = lat, 
+      group = group
+      ), 
+    fill = "white", 
+    color = "gray"
+    ) + 
+  coord_fixed(1.3)  + 
+  geom_text(
+    data = centroids2, 
+    aes(
+      x = clong, 
+      y = clat, 
+      label = county
+      ), 
+    color = "darkblue", 
+    size = 2.25
+    ) + 
+  theme_map()
+
+```
+
+```{r}
+# Create a vector of county names to highlight
+counties_to_highlight <- c("Allen", "Auglaize", "Butler", "Crawford", "Hancock", 
+                           "Knox", "Logan", "Medina", "Seneca", "Union")
+
+# Filter the `oh` data frame to include only the specified counties
+oh_highlighted <- oh[oh$county %in% counties_to_highlight, ]
+
+# Create the map plot with the highlighted counties
+p1<- ggplot() + geom_polygon( data = oh, aes(x = long, y = lat, group = group), color = "gray", fill = "white") + 
+  geom_polygon(data = oh_highlighted, aes(x = long, y = lat, group = group), fill = "indianred", color = NA) +
+  coord_fixed(1.3) + geom_text(data = centroids2, aes(x = clong, y = clat, label = county), color = "black", 
+  size = 2.25) + theme_map()
+
+```
+
+
+```{r}
+
+# Assuming the long list of counties is stored in a variable called `long_list_counties`
+long_list_counties <- c("Hamilton", "Lucas", "Butler", "Montgomery", "Lorain", "Lorain", "Cuyahoga", "Cuyahoga", "Franklin", "Hamilton", "Summit", "Montgomery", "Summit", "Butler", "Cuyahoga", "Erie", "Erie", "Franklin", "Franklin", "Columbiana", "Summit", "Mahoning", "Franklin", "Summit", "Summit", "Lorain", "Fairfield", "Wood", "Cuyahoga", "Montgomery", "Scioto", "Shelby", "Scioto", "Butler", "Franklin", "Butler", "Hamilton", "Lorain", "Hamilton", "Summit", "Cuyahoga", "Jackson", "Ross", "Lucas", "Mahoning", "Mahoning", "Cuyahoga", "Cuyahoga", "Stark", "Lawrence", "Stark", "Stark", "Trumbull", "Preble", "Lucas", "Jefferson", "Lucas", "Marion", "Lawrence", "Huron", "Ashtabula", "Lucas", "Hamilton", "Cuyahoga", "Summit", "Summit", "Summit", "Clark", "Mahoning", "Madison", "Erie", "Geauga", "Mahoning", "Lake", "Pickaway", "Jackson", "Summit", "Butler", "Lucas", "Mahoning", "Mahoning", "Lorain", "Mahoning", "Mahoning", "Morgan", "Cuyahoga", "Summit", "Hamilton", "Mahoning", "Hocking", "Mahoning", "Lake", "Adams", "Summit", "Lorain", "Portage", "Miami", "Summit", "Summit", "Stark", "Lorain", "Jackson", "Franklin", "Lucas", "Licking", "Perry", "Cuyahoga", "Stark", "Mahoning", "Lucas", "Summit", "Franklin", "Summit", "Sandusky", "Hamilton", "Summit", "Cuyahoga", "Ashtabula", "Greene", "Franklin", "Stark", "Clark", "Muskingum", "Lawrence", "Hamilton", "Richland", "Hamilton", "Clinton", "Summit", "Hamilton", "Hancock", "Franklin", "Montgomery", "Hardin", "Trumbull", "Butler", "Franklin", "Cuyahoga", "Champaign", "Richland", "Cuyahoga", "Cuyahoga", "Mahoning", "Lucas", "Erie", "Summit", "Summit", "Coshocton", "Portage", "Seneca", "Miami")
+
+# Filter the `oh` data frame to include only the specified counties
+oh_highlighted_long_list <- oh[oh$county %in% long_list_counties, ]
+
+# Remove counties already highlighted in lightpink
+oh_highlighted_long_list <- oh_highlighted_long_list[!oh_highlighted_long_list$county %in% counties_to_highlight, ]
+
+# Create the map plot with the highlighted counties (lightpink and lightgreen)
+p2<- ggplot() + 
+  geom_polygon(data = oh, aes(x = long, y = lat, group = group), color = "gray", fill = "white") + 
+  geom_polygon(data = oh_highlighted, aes(x = long, y = lat, group = group), fill = "indianred", color = NA) +
+  geom_polygon(data = oh_highlighted_long_list, aes(x = long, y = lat, group = group), fill = "lightgreen", color = NA) +
+  coord_fixed(1.3) + 
+  geom_text(data = centroids2, aes(x = clong, y = clat, label = county), color = "black", size = 2.25) + 
+  theme_map()
+
+p2
+```
+
+```{r}
+library(cowplot)
+
+p3 <- plot_grid(p1, p2, ncol = 2)
+
+p3
+```
+
+
