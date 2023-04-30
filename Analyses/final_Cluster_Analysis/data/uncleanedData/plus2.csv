@@ -1,0 +1,89 @@
+Fact,"Summit County, Ohio","Van Wert County, Ohio"
+"Population Estimates, July 1, 2022, (V2022)",NA,NA
+"Population Estimates, July 1, 2021, (V2021)","537,633","28,732"
+"Population estimates base, April 1, 2020, (V2022)",NA,NA
+"Population estimates base, April 1, 2020, (V2021)","540,428","28,931"
+"Population, percent change - April 1, 2020 (estimates base) to July 1, 2022, (V2022)",NA,NA
+"Population, percent change - April 1, 2020 (estimates base) to July 1, 2021, (V2021)",-0.50%,-0.70%
+"Population, Census, April 1, 2020","540,428","28,931"
+"Population, Census, April 1, 2010","541,781","28,744"
+"Persons under 5 years, percent",5.40%,6.10%
+"Persons under 18 years, percent",20.80%,23.30%
+"Persons 65 years and over, percent",18.90%,19.90%
+"Female persons, percent",51.30%,50.30%
+"White alone, percent",77.30%,96.40%
+"Black or African American alone, percent",15.30%,1.20%
+"American Indian and Alaska Native alone, percent",0.20%,0.50%
+"Asian alone, percent",4.30%,0.30%
+"Native Hawaiian and Other Pacific Islander alone, percent",Z,Z
+"Two or More Races, percent",2.80%,1.60%
+"Hispanic or Latino, percent",2.50%,4.10%
+"White alone, not Hispanic or Latino, percent",75.40%,93.00%
+"Veterans, 2017-2021","28,871","1,390"
+"Foreign born persons, percent, 2017-2021",5.40%,0.70%
+"Housing units, July 1, 2021, (V2021)","246,735","12,559"
+"Owner-occupied housing unit rate, 2017-2021",66.80%,78.00%
+"Median value of owner-occupied housing units, 2017-2021","$159,800 ","$112,300 "
+"Median selected monthly owner costs -with a mortgage, 2017-2021","$1,299 ",$957 
+"Median selected monthly owner costs -without a mortgage, 2017-2021",$525 ,$405 
+"Median gross rent, 2017-2021",$882 ,$721 
+"Building permits, 2021",788,37
+"Households, 2017-2021","228,283","11,553"
+"Persons per household, 2017-2021",2.33,2.47
+"Living in same house 1 year ago, percent of persons age 1 year+, 2017-2021",87.80%,90.10%
+"Language other than English spoken at home, percent of persons age 5 years+, 2017-2021",7.00%,2.40%
+"Households with a computer, percent, 2017-2021",92.50%,90.80%
+"Households with a broadband Internet subscription, percent, 2017-2021",88.00%,82.90%
+"High school graduate or higher, percent of persons age 25 years+, 2017-2021",92.60%,92.90%
+"Bachelor's degree or higher, percent of persons age 25 years+, 2017-2021",33.90%,16.70%
+"With a disability, under age 65 years, percent, 2017-2021",9.30%,10.10%
+"Persons  without health insurance, under age 65 years, percent",7.10%,8.10%
+"In civilian labor force, total, percent of population age 16 years+, 2017-2021",64.90%,63.90%
+"In civilian labor force, female, percent of population age 16 years+, 2017-2021",60.60%,59.50%
+"Total accommodation and food services sales, 2017 ($1,000)","1,190,062","31,205"
+"Total health care and social assistance receipts/revenue, 2017 ($1,000)","5,512,011","154,652"
+"Total transportation and warehousing receipts/revenue, 2017 ($1,000)","1,454,087","50,844"
+"Total retail sales, 2017 ($1,000)","8,582,177","334,276"
+"Total retail sales per capita, 2017","$15,843 ","$11,816 "
+"Mean travel time to work (minutes), workers age 16 years+, 2017-2021",23.3,20.1
+"Median household income (in 2021 dollars), 2017-2021","$63,111 ","$59,210 "
+"Per capita income in past 12 months (in 2021 dollars), 2017-2021","$37,373 ","$29,119 "
+"Persons in poverty, percent",12.50%,8.90%
+"Total employer establishments, 2020","13,210",541
+"Total employment, 2020","246,876","10,422"
+"Total annual payroll, 2020 ($1,000)","12,462,532","443,969"
+"Total employment, percent change, 2019-2020",-0.80%,-0.90%
+"Total nonemployer establishments, 2019","39,415","1,673"
+"All employer firms, Reference year 2017","10,079",416
+"Men-owned employer firms, Reference year 2017","6,333",231
+"Women-owned employer firms, Reference year 2017","1,707",59
+"Minority-owned employer firms, Reference year 2017",605,S
+"Nonminority-owned employer firms, Reference year 2017","8,317",305
+"Veteran-owned employer firms, Reference year 2017",699,29
+"Nonveteran-owned employer firms, Reference year 2017","8,056",260
+"Population per square mile, 2020","1,309.20",70.7
+"Population per square mile, 2010","1,312.60",70.3
+"Land area in square miles, 2020",412.79,409.15
+"Land area in square miles, 2010",412.75,409.16
+FIPS Code,"""39153""","""39161"""
+,,
+NOTE: FIPS Code values are enclosed in quotes to ensure leading zeros remain intact.,,
+,,
+Value Notes,,
+None,,
+,,
+Fact Notes,,
+(a),,
+(c),,
+(b),,
+,,
+Value Flags,,
+-,,
+F,,
+D,,
+N,,
+FN,,
+X,,
+S,,
+NA,,
+Z,,
